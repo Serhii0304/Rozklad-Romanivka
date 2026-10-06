@@ -193,3 +193,38 @@
   color:var(--day-ink);text-shadow:none;
  }
 }
+
+/* General view uses the class links in each table instead of a second class row. */
+@media screen {
+ body.is-general-page #schedule>.section-heading{margin-bottom:14px;}
+ body.is-general-page #schedule>.day-toolbar{
+  display:grid;grid-template-columns:minmax(0,1fr) auto auto;
+  gap:10px;align-items:center;margin-block:0 10px;
+ }
+ body.is-general-page #day-tabs{grid-column:1/-1;width:auto;flex-basis:auto;}
+ body.is-general-page .day-toolbar>.subject-filter{width:100%;min-width:0;justify-self:stretch;}
+ body.is-general-page .day-toolbar>.subject-filter select{width:100%;min-width:0;min-height:46px;}
+ body.is-general-page .day-toolbar>.view-tabs{margin:0;justify-self:start;}
+ body.is-general-page .day-toolbar>#today-button{
+  min-height:46px;margin:0;padding:8px 12px;white-space:nowrap;
+  border:1px solid var(--line);border-radius:9px;background:var(--white);color:var(--ink);
+  font-weight:700;
+ }
+ body.is-general-page #schedule>.table-caption{
+  position:absolute;width:1px;height:1px;margin:0;padding:0;overflow:hidden;
+  clip-path:inset(50%);white-space:nowrap;
+ }
+ body.is-general-page #schedule-content>.week-block:first-child{margin-top:0;}
+ body.is-general-page #schedule-content>.week-block:first-child>.week-heading{padding-block:10px;min-height:0;}
+}
+@media screen and (min-width:1440px){
+ body.is-general-page #schedule>.day-toolbar{grid-template-columns:minmax(0,1fr) 185px auto auto;}
+ body.is-general-page #day-tabs{grid-column:auto;}
+ body.is-general-page #day-tabs button{padding-inline:8px;}
+}
+@media screen and (max-width:600px){
+ body.is-general-page #schedule>.day-toolbar{grid-template-columns:minmax(0,1fr) auto;gap:8px;}
+ body.is-general-page .day-toolbar>.subject-filter{grid-column:1/-1;}
+ body.is-general-page .day-toolbar>#today-button{justify-self:end;}
+ body.is-general-page #schedule>.section-heading{margin-bottom:10px;}
+}

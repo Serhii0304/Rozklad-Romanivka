@@ -17,11 +17,11 @@
 <link rel="stylesheet" href="responsive.css">
 <link rel="stylesheet" href="ukraine.css">
 <link rel="stylesheet" href="print.css?v=20261006-romanivka">
-<link rel="stylesheet" href="romanivka.css?v=20261006-romanivka">
+<link rel="stylesheet" href="romanivka.css?v=20261006-compact-controls">
 <link rel="stylesheet" href="weekday-style.css">
 <link rel="stylesheet" href="bells-style.css?v=20261006-romanivka">
 <script src="schedule-config.js?v=20261006-romanivka"></script>
-<script type="module" src="app.mjs?v=20261006-romanivka"></script>
+<script type="module" src="app.mjs?v=20261006-compact-controls"></script>
 <link rel="stylesheet" href="mobile-layout.css?v=20261006-romanivka">
 <link rel="stylesheet" href="qr-nav.css?v=20261006-romanivka">
 </head>
@@ -55,7 +55,7 @@
 <p id="audio-help" class="audio-help">Звук активується після звичайного дотику до сайту. Тримайте сторінку відкритою, а пристрій — активним.</p>
 <section id="schedule" class="schedule-section">
 <div class="section-heading"><div><div class="eyebrow">5–11 КЛАСИ</div><h2 id="schedule-title">Загальний розклад уроків</h2></div><div class="print-heading-actions"><a class="qr-access" href="qr.html" aria-label="Відкрити QR-код сайту"><svg class="qr-access-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 5h2v2H5zM17 5h2v2h-2zM5 17h2v2H5zM12 3h1v4h-1zM3 11h6v2H3zM11 9h3v4h-3zM16 11h5v2h-5zM11 15h2v6h-2zM15 15h3v3h-3zM19 15h2v6h-2zM14 19h3v2h-3z" fill="currentColor"/></svg><span class="qr-access-copy"><strong>QR-код сайту</strong><span>Для учнів і вчителів</span></span><span class="qr-access-arrow" aria-hidden="true">↗</span></a><a id="poster-link" class="button poster-link" href="print.html">Розклади для друку</a><button id="print-button" class="button" type="button"><span aria-hidden="true">↗</span> Друк / PDF</button></div></div>
-<div class="toolbar">
+<div class="toolbar" hidden>
 <div id="class-tabs" class="class-tabs" role="group" aria-label="Оберіть клас"><button type="button" data-class="all" aria-label="Усі класи" aria-pressed="true"><span class="class-card-top"><span class="class-card-number" aria-hidden="true"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="17" y="3" width="8" height="8" rx="2"/><rect x="3" y="17" width="8" height="8" rx="2"/><rect x="17" y="17" width="8" height="8" rx="2"/></svg></span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">Усі класи</span></button><button type="button" data-class="5" aria-label="5 клас" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">5</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button><button type="button" data-class="6" aria-label="6 клас" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">6</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button><button type="button" data-class="7" aria-label="7 клас" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">7</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button><button type="button" data-class="8" aria-label="8 клас" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">8</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button><button type="button" data-class="9" aria-label="9 клас" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">9</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button></div>
 <label class="subject-filter"><span class="sr-only">Знайти предмет</span><select id="subject-filter"><option value="">Усі предмети</option></select></label>
 </div>
