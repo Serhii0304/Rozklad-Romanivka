@@ -1,0 +1,16 @@
+{
+  "id": "class-10",
+  "grade": 10,
+  "method": "builtin-imagegen-full",
+  "operation": "builtin-imagegen-edit",
+  "accepted": true,
+  "cellsChecked": 35,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-b9b0f620-bdf3-41a6-94b4-5511c23f962e.png",
+  "notes": "Visually checked all35 cells row by row against canonical Romanivka schedule-config.js. All32 subject cells correct. Tuesday7, Thursday7, Friday7 empty emdashes correct. Both Wednesday3 and Wednesday4 Захист України retained; both Friday4 and Friday5 Географія retained. All7 lesson times correct. School name/subname, semester and centered10КЛАС header correct. PNG copied unchanged from built-in generation, no overlay or retouch.",
+  "promptPath": "assets/print-generation/class-10-prompt.txt",
+  "imageSha256": "aa728465baf5594608561ae92b4484d0527e7375d5790b82938030504745d884"
+}

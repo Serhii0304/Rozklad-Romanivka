@@ -1,0 +1,15 @@
+{
+  "grade": 8,
+  "method": "builtin-imagegen-full",
+  "accepted": true,
+  "cellsChecked": 35,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-807b5f59-0e9b-4db7-a884-0ba9cd6894da.png",
+  "reviewedDate": "2026-10-06",
+  "reviewNotes": "All35 cells visually checked row by row against extracted source: correct subject/day/lesson placement, all3 empty cells, all7 bell times08:30 through15:05. Computing at Wednesday7 labeled1group, Friday7 labeled2group. Friday5 financial literacy preserved. Centered Romanivka/Rylskyi title; source text preserved with approved abbreviation expansion. Original output copied unchanged.",
+  "promptPath": "assets/print-generation/class-8-prompt.txt",
+  "imageSha256": "b971047566b1f4ddaa12beb144e1f80be26902584c5f211230c8e40bc622afda"
+}

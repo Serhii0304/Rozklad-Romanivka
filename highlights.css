@@ -1,0 +1,194 @@
+/* Original timetable treatments, inspired by Shine Border / Border Beam
+   (Magic UI) and Aceternity Glowing Effect. No component runtime required. */
+:root{
+  --selection-surface:linear-gradient(125deg,#39216f,#59359e 58%,#3b2678);
+  --selection-edge:#b17ae9;
+  --selection-glow:#783ac144;
+  --lesson-ribbon:linear-gradient(105deg,#2544ad 0%,#15699d 48%,#233fa5 100%);
+  --lesson-edge:#7fddf5;
+}
+:root[data-theme="dark"]{
+  --selection-surface:linear-gradient(125deg,#43267c,#6941b5 58%,#342365);
+  --selection-edge:#d5a3ff;
+  --selection-glow:#b56dff55;
+  --lesson-ribbon:linear-gradient(105deg,#183c88 0%,#116481 48%,#283c94 100%);
+  --lesson-edge:#6ee0ed;
+}
+
+/* Identical geometry in selected and unselected states prevents table jumps. */
+:is(#schedule-content,#print-stage) .schedule-table .subject{
+  position:relative;isolation:isolate;border:2px solid transparent;border-radius:16px;
+  padding:6px;transition:background .2s,border-color .2s,box-shadow .2s;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject:hover{transform:none;}
+:is(#schedule-content,#print-stage) .schedule-table .subject:focus-visible{
+  outline:3px solid #914ddb;outline-offset:3px;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match{
+  background:var(--selection-surface);color:#fff;border-color:var(--selection-edge);
+  outline:0;box-shadow:0 0 0 2px #ffffffc9,0 0 0 4px #9254c74d,
+    0 5px 18px var(--selection-glow),inset 0 1px 0 #ffffff35;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match:hover,
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match:focus-visible{
+  border-color:#e7c6ff;box-shadow:0 0 0 2px #fff,0 0 0 5px #9954da66,
+    0 6px 24px #904adb66,inset 0 1px 0 #ffffff50;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-name{
+  background:transparent;border:1px solid transparent;color:#fff;box-shadow:none;
+  font-weight:800;text-shadow:0 1px 1px #190b4133;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-symbol{
+  position:relative;background:#fcf5ff;border-color:#e1c9fa;box-shadow:0 2px 9px #190b412e;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-symbol::before{
+  content:"";position:absolute;top:-7px;right:-7px;width:17px;height:17px;
+  border-radius:50%;background:#c7fff1;border:2px solid #443075;box-shadow:0 2px 5px #190b4133;
+}
+:is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-symbol::after{
+  content:"";position:absolute;top:-2px;right:-1px;width:7px;height:4px;
+  border-left:2px solid #1b5b50;border-bottom:2px solid #1b5b50;transform:rotate(-45deg);
+}
+:is(#schedule-content,#print-stage) .subject.is-dim{opacity:1;filter:none;}
+#filter-result:not(:empty){
+  display:inline-flex;align-items:center;padding:5px 12px;margin:5px 0 5px auto;
+  color:#522180;background:#f2e8ff;border:1px solid #c29adf;border-radius:999px;font-weight:800;
+}
+[data-theme="dark"] #filter-result:not(:empty){color:#f3e4ff;background:#3f2a59;border-color:#9273ba;}
+
+/* The moving ring is decorative only. A solid border remains in every browser. */
+@supports (mask-composite:exclude) or (-webkit-mask-composite:xor){
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match::after{
+    content:"";display:block;position:absolute;inset:-2px;padding:2px;border-radius:16px;
+    background:linear-gradient(115deg,#bca1ff 4%,#e8d9ff 20%,#70f4df 38%,#fff4fd 50%,#d889ff 66%,#bca1ff 86%);
+    background-size:260% 260%;
+    -webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);
+    -webkit-mask-composite:xor;mask-composite:exclude;
+    pointer-events:none;
+  }
+}
+
+/* One connected live ribbon; table geometry and subject selection stay intact. */
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current{
+  background:var(--lesson-ribbon);background-size:180% 100%;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current>td{
+  background:transparent!important;border-color:#8bd9ef70;
+  box-shadow:inset 0 2px 0 var(--lesson-edge),inset 0 -2px 0 var(--lesson-edge);
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current>th{
+  background:#173b88!important;color:#fff;border-color:#8bd9ef70;
+  box-shadow:inset 4px 0 0 #a8f4ed,inset 0 2px 0 var(--lesson-edge),inset 0 -2px 0 var(--lesson-edge);
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match){
+  color:#fff;border-color:#e1faff35;background:#ffffff09;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match) .subject-name{
+  color:#fff;background:transparent;border-color:transparent;box-shadow:none;font-weight:800;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match):hover{
+  background:#ffffff1c;border-color:#bdedff9c;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-number{
+  position:relative;background:#effeff;color:#164290;border:1px solid #c0f3ff;
+  box-shadow:0 0 0 3px #80d8f93d,0 0 17px #7de4ff47;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-time{color:#e1f4ff;}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .empty{color:#e8f6ff;background:#10336d;border:1px solid #9de0f777;}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state{
+  position:relative;isolation:isolate;overflow:hidden;display:block;margin-top:7px;
+  padding:5px 3px;color:#dcfffa;background:#0d275c;border:1px solid #81dfdb;
+  border-radius:8px;font-size:10px;font-weight:800;line-height:1.5;letter-spacing:.35px;
+  text-shadow:none;box-shadow:0 0 10px #2ed6d629;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state::before{
+  content:"";display:inline-block;width:6px;height:6px;margin-right:4px;
+  border-radius:50%;background:#8bf5d6;box-shadow:0 0 0 3px #8bf5d622;
+  vertical-align:1px;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state::after{
+  content:"";position:absolute;left:0;bottom:0;width:45%;height:2px;pointer-events:none;
+  background:linear-gradient(90deg,transparent,#c8fff5,transparent);
+  transform:translateX(-120%);
+}
+
+/* The intersection of today's column and the live row gets a second frame. */
+:is(#schedule-content,#print-stage) .week-matrix tr.is-current>.is-current-cell{
+  background:#a9f8ff1c!important;
+  box-shadow:inset 0 0 0 3px #b8fff1,inset 0 0 25px #73e0ed30;
+}
+:is(#schedule-content,#print-stage) .week-matrix tr.is-current>.is-current-cell .subject:not(.is-match){
+  border-color:#c5fff191;background:#0a315942;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-upcoming:not(.is-current)>th{
+  background:var(--soft)!important;box-shadow:inset 4px 0 0 #2d92b9;
+}
+:is(#schedule-content,#print-stage) .schedule-table tr.is-upcoming:not(.is-current) .row-state{
+  color:var(--blue-dark);font-weight:800;
+}
+
+@media(prefers-reduced-motion:no-preference){
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match{
+    animation:subject-arrive .38s cubic-bezier(.2,.8,.2,1) both;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match::after{
+    animation:selection-shine 7s ease-in-out infinite;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-icon{
+    animation:icon-celebrate .48s cubic-bezier(.2,.8,.2,1) both;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table tr.is-current{
+    animation:lesson-aurora 12s ease-in-out infinite;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-number{
+    animation:lesson-glow 3.6s ease-in-out infinite;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state::before{
+    animation:live-dot-breathe 2.8s ease-in-out infinite;
+  }
+  :is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state::after{
+    animation:live-label-beam 5s ease-in-out infinite;
+  }
+}
+@keyframes subject-arrive{
+  from{transform:translateY(3px) scale(.985);box-shadow:0 0 0 0 #a566e100;}
+  65%{transform:translateY(-1px) scale(1.01);}
+  to{transform:translateY(0) scale(1);}
+}
+@keyframes selection-shine{
+  0%,100%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+}
+@keyframes icon-celebrate{
+  0%{transform:scale(.84) rotate(-7deg);}
+  65%{transform:scale(1.12) rotate(4deg);}
+  100%{transform:scale(1) rotate(0);}
+}
+@keyframes lesson-aurora{
+  0%,100%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+}
+@keyframes lesson-glow{
+  0%,100%{box-shadow:0 0 0 3px #80d8f93d,0 0 13px #7de4ff40;}
+  50%{box-shadow:0 0 0 5px #80d8f94d,0 0 24px #7de4ff73;}
+}
+@keyframes live-dot-breathe{
+  0%,100%{box-shadow:0 0 0 2px #8bf5d61a;}
+  50%{box-shadow:0 0 0 4px #8bf5d638;}
+}
+@keyframes live-label-beam{
+  0%,15%{transform:translateX(-120%);}
+  80%,100%{transform:translateX(340%);}
+}
+@media(prefers-reduced-motion:reduce){
+  :is(#schedule-content,#print-stage) .subject,:is(#schedule-content,#print-stage) .subject-icon,:is(#schedule-content,#print-stage) .subject::after,
+  :is(#schedule-content,#print-stage) tr,:is(#schedule-content,#print-stage) .lesson-number,:is(#schedule-content,#print-stage) .row-state::before,
+  :is(#schedule-content,#print-stage) .row-state::after{animation:none!important;transition:none!important;}
+  :is(#schedule-content,#print-stage) .subject{transform:none!important;}
+}
+@media(forced-colors:active){
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match{border:2px solid Highlight;outline:2px solid CanvasText;outline-offset:2px;}
+  :is(#schedule-content,#print-stage) .schedule-table .subject.is-match::after{display:none;}
+  :is(#schedule-content,#print-stage) .schedule-table tr.is-current>*{border-top:3px solid Highlight;border-bottom:3px solid Highlight;}
+}

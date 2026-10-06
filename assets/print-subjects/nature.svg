@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Пізнаємо природу">
+<circle cx="48" cy="45" r="36" fill="#ECF4DF"/>
+<ellipse cx="47" cy="82" rx="36" ry="4" fill="#DFE9CE"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="67" cy="24" r="10" fill="#F0C968"/>
+<path d="M66 9V5m15 11 4-3m-2 15h5" stroke="#D5AE50" stroke-width="2"/>
+<path d="m8 69 20-31 21 31Z" fill="#93BD98"/>
+<path d="m22 47 6-9 7 11-7-3Z" fill="#FCF9DE" stroke="none"/>
+<path d="M13 75c19-13 47-16 71-1v8H13Z" fill="#BDD696"/>
+<path d="M52 65V42m0 12c-13 0-20-7-19-18 13 0 20 7 19 18Zm0-8c0-13 8-22 22-22 0 14-8 22-22 22Z" fill="#72B58A"/>
+<path d="m41 43 11 11m0-8 14-14" stroke="#3F8060" stroke-width="2"/>
+<path d="M34 70h32" stroke="#7CA569" stroke-width="3"/>
+</g>
+<circle cx="15" cy="30" r="3" fill="#D9B66B"/>
+<path d="M77 54c7-7 14 0 6 4 8 4 1 11-6 4-7 7-14 0-6-4-8-4-1-11 6-4Z" fill="#DF9976"/>
+</svg>

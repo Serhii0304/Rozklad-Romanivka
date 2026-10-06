@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Німецька мова">
+<circle cx="48" cy="45" r="36" fill="#FBF0DC"/>
+<ellipse cx="48" cy="82" rx="39" ry="4" fill="#E6D9C5"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M15 31h66v10H15z" fill="#D7BA84"/>
+<path d="m11 31 7-8h60l7 8Z" fill="#EED8AC"/>
+<path d="M21 42h8v32h-8zm15 0h8v32h-8zm16 0h8v32h-8zm15 0h8v32h-8z" fill="#E9D3A9"/>
+<path d="M18 74h60v7H18z" fill="#CDB07C"/>
+<path d="M12 83h72" stroke="#BA9A6B" stroke-width="4"/>
+<path d="M25 43v27m15-27v27m16-27v27m15-27v27" stroke="#F8EDCF" stroke-width="1.5"/>
+<path d="M36 21V11h24v10" fill="#567D78"/>
+<path d="m36 14-4-5m8 5V7m8 7V6m8 8V7m4 7 4-5" stroke="#567D78" stroke-width="3.8"/>
+<path d="M30 21h36" stroke="#567D78" stroke-width="3"/>
+<path d="M21 35h54" stroke="#FFF2D4" stroke-width="2"/>
+</g>
+<path d="M8 56h6v5H8z" fill="#D68569"/>
+<path d="M82 55h6v5h-6z" fill="#D68569"/>
+</svg>

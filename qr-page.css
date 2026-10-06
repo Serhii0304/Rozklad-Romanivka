@@ -1,0 +1,45 @@
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;min-width:0;background:#fff;color:#173653;font-family:"Segoe UI",Arial,sans-serif}
+.qr-page{height:100vh;height:100dvh;display:grid;grid-template-rows:auto minmax(0,1fr) auto;padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px);border-top:5px solid #0878c4;border-bottom:5px solid #f7cf36;background:white}
+a{color:inherit;text-decoration:none}
+.qr-header{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 20px;min-width:0}
+.qr-brand strong{display:block;font-size:18px;font-weight:800}
+.qr-brand span{display:block;font-size:13px;margin-top:2px}
+.qr-header nav,.qr-footer nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px}
+.qr-header nav a,.qr-header button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:8px 14px;border:1px solid #c7d6e5;border-radius:10px;background:#f1f6fc;font:700 14px "Segoe UI",Arial,sans-serif;cursor:pointer;white-space:nowrap}
+.qr-header button{color:#fff;background:#154c7e;border-color:#154c7e}
+.qr-header button[hidden]{display:none}
+a:focus-visible,button:focus-visible{outline:3px solid #cc941f;outline-offset:3px}
+.qr-display{min-width:0;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
+#site-qr{display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:contain}
+.qr-footer{text-align:center;padding:4px 12px 10px}
+.qr-footer p{margin:0 0 4px;font-weight:700;font-size:16px}
+.qr-destination{font-size:13px;overflow-wrap:anywhere}
+.qr-footer nav{margin-top:5px;gap:4px 18px}
+.qr-footer nav a{font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:3px;padding:3px}
+#qr-status:empty{display:none}
+#qr-status{margin-top:5px;font-size:13px;color:#805611}
+@media(max-width:600px){
+ .qr-header{padding:8px;gap:8px;flex-wrap:wrap}
+ .qr-brand strong{font-size:16px}
+ .qr-brand span{font-size:12px}
+ .qr-header nav{gap:6px}
+ .qr-header nav a,.qr-header button{font-size:12px;padding:6px 10px}
+ .qr-footer p{font-size:15px}
+}
+@media(max-height:500px){
+ .qr-brand span,.qr-footer nav{display:none}
+ .qr-header{padding-block:4px}
+ .qr-header nav a,.qr-header button{min-height:36px}
+ .qr-footer{padding-block:2px}
+ .qr-footer p{display:none}
+}
+@media print{
+ @page{size:A4 portrait;margin:12mm}
+ html,body{height:auto}
+ .qr-page{height:auto;display:block;border:0;padding:0}
+ .qr-header{justify-content:center;text-align:center}
+ .qr-header nav,.qr-footer nav,#qr-status{display:none}
+ .qr-display{height:180mm;width:100%;margin:8mm 0}
+ #site-qr{width:100%;height:100%}
+}

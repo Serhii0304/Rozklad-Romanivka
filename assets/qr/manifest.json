@@ -1,0 +1,36 @@
+{
+  "url": "https://serhii0304.github.io/Rozklad-Romanivka/",
+  "errorCorrection": "Q",
+  "quietZoneModules": 4,
+  "qrVersion": 5,
+  "pngPixels": [
+    1440,
+    1440
+  ],
+  "posterPixels": [
+    1568,
+    1920
+  ],
+  "decodedExactly": [
+    "full PNG",
+    "phone PNG",
+    "poster",
+    "rotated poster",
+    "SVG raster"
+  ],
+  "files": [
+    {
+      "path": "assets/qr/site.png",
+      "sha256": "a23dc9ddf66a3a608113c64eb2076a81ac79e64659bf303cecbd147889e41c63"
+    },
+    {
+      "path": "assets/qr/site.svg",
+      "sha256": "fce391530ffc45656c9a5b1890af23c39eae06b287373f4a85e3678e013ed678"
+    },
+    {
+      "path": "assets/qr/poster.png",
+      "sha256": "1f0420c46f3d6151cae7cb487743c292fb66492675f3f94102da6578a1248482"
+    }
+  ],
+  "schemaVersion": 1
+}

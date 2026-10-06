@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Громадянська освіта</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 35l8-10h32l8 10v20H8z" fill="#57B9EC"/>
+<path d="M8 35h48M24 30h16" fill="none"/>
+<path d="M21 8h21v22H21z" fill="#FFC95C" transform="rotate(9 31 19)"/>
+<path d="M26 18l4 4 8-8" fill="none" stroke-width="3"/>
+<path d="M20 46h24M25 51h14" fill="none"/>
+<path d="M8 18l-3-3m7-1V9M52 19l5-2m-7-4 2-5" fill="none" stroke="#FF8273"/>
+</g>
+</svg>

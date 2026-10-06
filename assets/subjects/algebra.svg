@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Алгебра</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="7" y="9" width="50" height="45" rx="9" fill="#57B9EC"/>
+<path d="M15 22l10 12m0-12L15 34" fill="none" stroke-width="3.5"/>
+<path d="M30 17c0-5 8-5 8 0 0 3-8 4-8 8h8" fill="none" stroke-width="2.6"/>
+<path d="M17 43h11m-5.5-5.5v11" fill="none"/>
+<path d="M39 38h10m-10 7h10" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
+<circle cx="48" cy="17" r="4" fill="#FFC95C"/>
+</g>
+</svg>

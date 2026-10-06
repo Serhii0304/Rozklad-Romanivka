@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Мистецтво</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 13c10 2 19-1 26-5v19c0 12-7 18-13 18S6 36 6 29z" fill="#FFC95C"/>
+<path d="M12 24l5-2m6-1 5-2M13 33q7 6 13-2" fill="none"/>
+<path d="M29 23c10 2 18 0 25-4v20c0 11-7 17-13 17s-12-7-12-15z" fill="#FF8273"/>
+<path d="M35 33l5-2m6-1 4-2m-15 19q6-6 12-2" fill="none"/>
+<path d="M42 8l4-3 7 17-4 3z" fill="#57B9EC"/>
+<path d="M49 25c-3 4-1 8 6 8 2-4 1-7-2-10" fill="#57B9EC"/>
+</g>
+</svg>

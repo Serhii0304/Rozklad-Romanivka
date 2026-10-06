@@ -1,0 +1,78 @@
+#print-stage{--white:#fff;--ink:#172b45;--muted:#52647c;--line:#b4c7dd;--grid-line:#a7bdd5;--rail:#e8eff9;--blue:#254bd7;--blue-dark:#1936a4;--soft:#eaf0ff;--class-5:#eaf1ff;--class-6:#e7f5ec;--class-7:#f0e9fb;--class-8:#fff1dc;--class-9:#fbe8f0;--selection-surface:linear-gradient(125deg,#39216f,#59359e 58%,#3b2678);--lesson-ribbon:linear-gradient(105deg,#2544ad,#15699d 48%,#233fa5);color:#172b45;font-family:Manrope,"Segoe UI",Arial,sans-serif;}
+#print-stage.print-measure{display:block!important;position:fixed!important;left:-10000px!important;top:0;visibility:hidden;width:276mm;pointer-events:none;}
+#print-stage .print-page{display:block;position:relative;width:276mm;height:189mm;margin:0;box-sizing:border-box;break-inside:avoid;page-break-inside:avoid;}
+#print-stage .print-sheet{width:276mm;zoom:var(--print-scale,1);margin-inline:auto;}
+#print-stage .poster-print-page{page:illustrated-poster;width:287mm;height:200mm;margin-inline:auto;}
+#print-stage .poster-print-sheet{display:flex;align-items:center;justify-content:center;width:287mm;height:200mm;}
+#print-stage .class-print-poster{display:block;object-fit:contain;width:287mm;height:200mm;max-width:287mm;}
+#print-stage .bells-print-page{page:bells-poster;width:200mm;height:287mm;}
+#print-stage .bells-print-page .poster-print-sheet{width:200mm;height:287mm;}
+#print-stage .bells-print-page .class-print-poster{width:200mm;height:287mm;max-width:200mm;}
+#print-stage .print-heading{display:flex;align-items:center;justify-content:space-between;gap:8mm;padding:0 0 3mm;margin:0 0 3mm;border-bottom:1.5mm solid #315daf;}
+#print-stage .print-heading img{display:block;object-fit:contain;width:22mm;height:22mm;}
+#print-stage .print-school{font-size:10pt;font-weight:700;margin:0 0 1mm;color:#405774;}
+#print-stage .print-heading h1{font-size:20pt;line-height:1.2;margin:0 0 1mm;color:#163b72;letter-spacing:-.4px;font-weight:800;}
+#print-stage .print-term{font-size:10pt;line-height:1.35;color:#52647c;margin:0;}
+#print-stage .print-footer{display:flex;justify-content:space-between;font-size:8pt;color:#52647c;padding-top:2.5mm;line-height:1.3;}
+#print-stage .table-wrap{width:100%;overflow:visible;box-shadow:none;border:1px solid #a7bdd5;border-radius:0;break-inside:avoid;}
+#print-stage .schedule-table{width:100%;min-width:0!important;table-layout:fixed;border-collapse:collapse;font-size:10pt;break-inside:avoid;}
+#print-stage .schedule-table tr{break-inside:avoid;page-break-inside:avoid;}
+#print-stage .schedule-table th,#print-stage .schedule-table td{position:static!important;border:1px solid #a7bdd5;box-sizing:border-box;break-inside:avoid;page-break-inside:avoid;}
+#print-stage .schedule-table thead th{height:10mm;padding:2mm 1mm;font-size:12pt;line-height:1.2;text-align:center;font-weight:800;color:#fff;background:#193c69;}
+#print-stage .schedule-table thead th:first-child{width:22mm;font-size:9pt;}
+#print-stage .schedule-table thead th[data-grade-head="5"]{background:#315daf;}
+#print-stage .schedule-table thead th[data-grade-head="6"]{background:#247463;}
+#print-stage .schedule-table thead th[data-grade-head="7"]{background:#7244a4;}
+#print-stage .schedule-table thead th[data-grade-head="8"]{background:#96600f;}
+#print-stage .schedule-table thead th[data-grade-head="9"]{background:#a33b70;}
+#print-stage .schedule-table thead th[data-day-head="0"]{background:#805611;}
+#print-stage .schedule-table thead th[data-day-head="1"]{background:#2756aa;}
+#print-stage .schedule-table thead th[data-day-head="2"]{background:#713da4;}
+#print-stage .schedule-table thead th[data-day-head="3"]{background:#186e61;}
+#print-stage .schedule-table thead th[data-day-head="4"]{background:#a03169;}
+#print-stage .schedule-table tbody th{background:#e8eff9;padding:1mm;text-align:center;color:#172b45;width:22mm;}
+#print-stage .schedule-table td{height:17.8mm;padding:1mm!important;text-align:center;}
+#print-stage td[data-grade="5"],#print-stage td[data-cell-day="1"]{background:#eaf1ff;}
+#print-stage td[data-grade="6"],#print-stage td[data-cell-day="3"]{background:#e7f5ec;}
+#print-stage td[data-grade="7"],#print-stage td[data-cell-day="2"]{background:#f0e9fb;}
+#print-stage td[data-grade="8"],#print-stage td[data-cell-day="0"]{background:#fff1dc;}
+#print-stage td[data-grade="9"],#print-stage td[data-cell-day="4"]{background:#fbe8f0;}
+#print-stage .class-link{display:flex;justify-content:center;align-items:center;gap:1mm;color:#fff;}
+#print-stage .class-link>span:last-child{display:none;}
+#print-stage .class-number{font-size:15pt;line-height:1;}
+#print-stage .subject,#print-stage .week-matrix .week-subject{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;min-height:0;gap:.8mm;padding:1mm;border:1px solid transparent;border-radius:3mm;font-size:10pt;line-height:1.22;transform:none;}
+#print-stage .subject-name{background:#ffffffb5;color:#172b45;border:1px solid #ffffffd9;border-radius:2mm;padding:.4mm 1mm;font-size:10pt;line-height:1.25;font-weight:700;text-align:center;overflow-wrap:normal;box-shadow:none;}
+#print-stage .subject-symbol{display:grid!important;place-items:center;width:7mm;height:7mm;flex:0 0 7mm;border-radius:2mm;background:#fff;border:1px solid #bfd0e2;box-shadow:none;transform:none!important;}
+#print-stage .subject-icon{display:block!important;width:6.2mm;height:6.2mm;object-fit:contain;}
+#print-stage .subject::before{display:none;}
+#print-stage .schedule-table .subject.is-match::after{display:none!important;}
+#print-stage .lesson-number{display:grid;place-items:center;width:8mm;height:8mm;margin:0 auto 1mm;font-size:15pt;font-weight:800;color:#193c69;background:#fff;border:1px solid #c1d0e2;box-shadow:none;border-radius:2mm;}
+#print-stage .lesson-time{display:block;font-size:8pt;line-height:1.3;white-space:nowrap;color:#405774;}
+#print-stage .row-state{font-size:7pt;line-height:1.2;margin-top:1mm;}
+#print-stage .week-matrix thead small{font-size:7pt;margin-top:1mm;line-height:1;}
+#print-stage .empty{font-size:12pt;line-height:1;color:#5c6d81;background:transparent;border:0;}
+#print-stage .bells-list{width:220mm;max-width:100%;margin:0 auto;padding:1mm 4mm;border:1px solid #b8cadd;border-radius:3mm;box-shadow:none;background:#f4f7fc;}
+#print-stage .bell-row{display:grid;grid-template-columns:10mm 1fr auto;align-items:center;gap:4mm;padding:2mm 0;min-height:0;font-size:11pt;border-color:#b8cadd;}
+#print-stage .bell-number{width:8mm;height:8mm;font-size:14pt;font-weight:800;background:#e3ecff;color:#24499c;border-radius:2mm;}
+#print-stage .bell-name{font-size:12pt;font-weight:700;}
+#print-stage .bell-name small{font-size:8pt;color:#2756aa;}
+#print-stage .bell-hours{font-size:16pt;color:#173e77;}
+#print-stage .bell-break{display:grid;grid-template-columns:1fr auto 18mm;gap:4mm;align-items:center;padding:1mm 0 1mm 14mm;min-height:0;font-size:9pt;line-height:1.3;color:#47617c;border-color:#c3d4e4;}
+#print-stage .break-hours{white-space:nowrap;}
+#print-stage .break-hours>span,#print-stage .bell-hours>span{margin-inline:2mm;}
+#print-stage .break-duration{text-align:right;}
+#print-stage .break-state:not(:empty){grid-column:1/-1;font-size:8pt;}
+#print-stage .break-state:empty{display:none;}
+#print-stage .bell-break.large{background:#e6f4ee;color:#236855;}
+#print-stage .bell-row.is-current{background:#e0edff;color:#163b72;box-shadow:inset 3px 0 0 #315daf;}
+#print-stage *,#print-stage *::before,#print-stage *::after{animation:none!important;transition:none!important;print-color-adjust:exact;-webkit-print-color-adjust:exact;}
+@media print{
+ @page{size:A4 landscape;margin:10mm;}
+ @page illustrated-poster{size:A4 landscape;margin:5mm;}
+ @page bells-poster{size:A4 portrait;margin:5mm;}
+ html,body{margin:0!important;padding:0!important;background:#fff!important;color:#172b45;color-scheme:light!important;}
+ body::before,body::after,.header,.shell,.skip,.noscript,.back-to-top{display:none!important;}
+ #print-stage{display:block!important;position:static!important;visibility:visible!important;margin:0;padding:0;}
+ #print-stage .print-page+.print-page{break-before:page;page-break-before:always;}
+ #print-stage .print-page:last-child{break-after:auto;page-break-after:auto;}
+}

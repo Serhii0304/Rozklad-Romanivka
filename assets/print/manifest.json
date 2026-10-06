@@ -1,0 +1,2091 @@
+{
+  "schemaVersion": 2,
+  "format": "A4 landscape",
+  "generationMethod": "builtin-imagegen-full",
+  "originalsUnmodified": true,
+  "configHashMethod": "sha256(JSON.stringify(parsed SchoolScheduleConfig))",
+  "configSha256": "a137c7abb716031d00f678a6bde7c04601bd516a4d6d4607e27c6b0559656fbf",
+  "reviewMethod": "Visual review of the actual generated text, lesson times and all35 cells per image; file checksums protect the accepted images.",
+  "complete": true,
+  "posters": [
+    {
+      "grade": 5,
+      "className": "5 клас",
+      "path": "assets/print/class-5-week.png",
+      "previewPath": "assets/print/class-5-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "bf25c827b5537783c717808de70415d9eab1d7e86c3831433d12b289736a1a20",
+      "previewSha256": "f7397b7913ce25fcd9443852c18ded545aa65d9f69c01017d8b3d580d14465ea",
+      "promptPath": "assets/print-generation/class-5-prompt.txt",
+      "promptSha256": "e0faaf0b4288afd8543b6e9a5ced66f202856e33d404bfa0cca3a9a831137a34",
+      "reviewPath": "assets/print-generation/class-5-review.json",
+      "cellCount": 35,
+      "filledCount": 27,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Технології"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Математика"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Історія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Пізнаємо природу"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська література"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "grade": 6,
+      "className": "6 клас",
+      "path": "assets/print/class-6-week.png",
+      "previewPath": "assets/print/class-6-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "a8b9eec3538b37a3c5a5771e66a0eeba505824c62605678c92a6eb07cd6e2405",
+      "previewSha256": "3fd106d2072b10f75d74b42397e6a2f27ffa0cb24d1178daf5a2eec97bb8d357",
+      "promptPath": "assets/print-generation/class-6-prompt.txt",
+      "promptSha256": "c75c0b14c85cff5e61545a4375c327095d3f60bb26f2e7df65196e7639be8a08",
+      "reviewPath": "assets/print-generation/class-6-review.json",
+      "cellCount": 35,
+      "filledCount": 27,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Технології"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Географія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Пізнаємо природу"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська література"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Математика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Інформатика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "grade": 7,
+      "className": "7 клас",
+      "path": "assets/print/class-7-week.png",
+      "previewPath": "assets/print/class-7-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "3a228362a13a7cad60c495e8bd8d27c56cb8acbaaecbbcb89f5f18fcb342ffc5",
+      "previewSha256": "adff5b998b9fe56905cf1fc17df245f60dd50d1ea1ea6f61cad19f36fe073f12",
+      "promptPath": "assets/print-generation/class-7-prompt.txt",
+      "promptSha256": "973ee7e8c6027341267ed4a43d6a8831544cedcabf95e2dfa2bc8ae6eb4bcf3e",
+      "reviewPath": "assets/print-generation/class-7-review.json",
+      "cellCount": 35,
+      "filledCount": 31,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Географія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Хімія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Біологія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Мистецтво"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Географія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Математика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Технології"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Математика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "grade": 8,
+      "className": "8 клас",
+      "path": "assets/print/class-8-week.png",
+      "previewPath": "assets/print/class-8-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "b971047566b1f4ddaa12beb144e1f80be26902584c5f211230c8e40bc622afda",
+      "previewSha256": "c5c3599144acda80ff5880489386f8f48e7ed6e9885fc075bfdce9e9d250e005",
+      "promptPath": "assets/print-generation/class-8-prompt.txt",
+      "promptSha256": "c3d3686ae8373ddc6674c85cac356e83ef0b990010ef81181b53ca71aaa336ff",
+      "reviewPath": "assets/print-generation/class-8-review.json",
+      "cellCount": 35,
+      "filledCount": 32,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Хімія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Географія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Біологія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Технології"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Інформатика (1 група)"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Хімія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фінансова грамотність"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Інформатика (2 група)"
+        }
+      ]
+    },
+    {
+      "grade": 9,
+      "className": "9 клас",
+      "path": "assets/print/class-9-week.png",
+      "previewPath": "assets/print/class-9-preview.webp",
+      "width": 1491,
+      "height": 1055,
+      "sha256": "b7dcfe433f0b78f3a09994e72a5201213a7260ceb033f15307758b84b641c052",
+      "previewSha256": "4191fb6929139c9b72f5a564230cd3262bb63958a8d1cf78d10c3a2e3a2281dd",
+      "promptPath": "assets/print-generation/class-9-prompt.txt",
+      "promptSha256": "2cffde007eac0f1510a7e32747896bd8cc2171f21952f725133871cb9555e049",
+      "reviewPath": "assets/print-generation/class-9-review.json",
+      "cellCount": 35,
+      "filledCount": 34,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Правознавство"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фінансова грамотність"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Технології"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізика"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Хімія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Біологія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Хімія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Біологія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "grade": 10,
+      "className": "10 клас",
+      "path": "assets/print/class-10-week.png",
+      "previewPath": "assets/print/class-10-preview.webp",
+      "width": 1491,
+      "height": 1055,
+      "sha256": "aa728465baf5594608561ae92b4484d0527e7375d5790b82938030504745d884",
+      "previewSha256": "bd75e75af927dc6d5b804bb9ed52a5fc581cf5ffbb8e556ee169506c67f795d0",
+      "promptPath": "assets/print-generation/class-10-prompt.txt",
+      "promptSha256": "a2e6b2d40040cf935e0eb30cf218697a12b2abdcba17b3a32e4a9ed07cefff47",
+      "reviewPath": "assets/print-generation/class-10-review.json",
+      "cellCount": 35,
+      "filledCount": 32,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Хімія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Громадянська освіта"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Біологія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська література"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Технології"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Захист України"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Захист України"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Географія"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Біологія"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Географія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Географія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Громадянська освіта"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "grade": 11,
+      "className": "11 клас",
+      "path": "assets/print/class-11-week.png",
+      "previewPath": "assets/print/class-11-preview.webp",
+      "width": 1491,
+      "height": 1055,
+      "sha256": "6be4edc976de42db9d414765306a9b59f10665fb5cf24ddd79215d4414b18e9a",
+      "previewSha256": "2a15a846f87c5c68176e5292ea05ceba94c380023c2229c021a9a5629aa066f0",
+      "promptPath": "assets/print-generation/class-11-prompt.txt",
+      "promptSha256": "83bbb73fcd573af76f0408278e7f26bd89227ac1f18ee900c63379df97d8d06c",
+      "reviewPath": "assets/print-generation/class-11-review.json",
+      "cellCount": 35,
+      "filledCount": 32,
+      "cells": [
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Біологія"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "day": "Понеділок",
+          "dayId": "monday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Географія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Геометрія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "day": "Вівторок",
+          "dayId": "tuesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Технології"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Інформатика"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Захист України"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Захист України"
+        },
+        {
+          "day": "Середа",
+          "dayId": "wednesday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізика"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "day": "Четвер",
+          "dayId": "thursday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Інформатика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Астрономія"
+        },
+        {
+          "day": "П’ятниця",
+          "dayId": "friday",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

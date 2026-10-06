@@ -1,0 +1,20 @@
+{
+  "dayId": "monday",
+  "method": "builtin-imagegen-full",
+  "operation": "builtin-imagegen-edit",
+  "accepted": true,
+  "cellsChecked": 49,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "iconsApproved": true,
+  "styleMatched": true,
+  "gridFillsPage": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-25ecf96b-9b9d-48de-ad00-2c6d0e374cfd.png",
+  "promptPath": "assets/print-week-generation/monday-prompt.txt",
+  "nativeWidth": 1492,
+  "nativeHeight": 1054,
+  "notes": "Visually reviewed all49 cells and all7 lesson times against canonical Romanivka schedule-config.js after a targeted icon correction. Class11 lesson6 Українська література now has an openbook with quill; other labels, subjects, icons and empty cells retain the supplied timetable. Schoolname/subname, Monday title,5–11classes and І semester2026–2027 correct. All49 cells, blue/gold grid and complete border fit page. Final PNG copied byte-for-byte from built-in ImageGen edit; no programmatic overlays, resizing or retouch.",
+  "imageSha256": "be3aef4fd2c88cbad1fdb7990d323679a65de38c5a533077806691139f476739"
+}

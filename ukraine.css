@@ -1,0 +1,64 @@
+/* Blue and yellow framing for the two top panels. */
+.header{
+ background:linear-gradient(110deg,#06458d,#0867b9 58%,#07549d);
+ border:0;border-bottom:4px solid #ffd500;
+ box-shadow:0 5px 18px #062e6330;
+}
+.header .brand,.header .brand small,.header .top-nav a{color:#fff;}
+.header .brand-mark{background:#06458d;border:1px solid #ffe260;box-shadow:0 4px 14px #012e6850;}
+.header .top-nav a:hover{color:#ffdf53;background:#ffffff12;}
+.header .top-nav a[aria-current="page"]{color:#fff;background:#ffffff19;border-color:#ffdf53;}
+.header .school-year{color:#fff;background:#034984;border-color:#8bcaff66;}
+.header .theme-switch{background:#034984;border-color:#8bcaff66;}
+.header .theme-button{color:#e8f4ff;}
+.header .theme-button[aria-pressed="true"]{color:#17426b;background:#fff4ba;}
+.header .theme-button[data-set-theme="dark"][aria-pressed="true"]{color:#ffe260;background:#0b345f;}
+.intro{
+ position:relative;isolation:isolate;
+ background:linear-gradient(180deg,#0796ff 0%,#0087f0 49.7%,#ffd500 50%,#ffdf20 100%);
+ border:1px solid #ffe889;
+ box-shadow:0 12px 35px #071c3d21,inset 0 1px 0 #ffffff80;
+}
+.intro h1{color:#031d36;}
+.intro .eyebrow{color:#031d36;}
+.intro h1 span{background:linear-gradient(110deg,#031e39,#01172d);background-clip:text;}
+.intro .ukraine-emblem{
+ position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+ display:block;width:64px;height:90px;object-fit:contain;
+ filter:drop-shadow(0 5px 8px #073b6840);pointer-events:none;
+}
+[data-theme="dark"] .intro{
+ border-color:#ffe260;
+}
+[data-theme="dark"] .intro h1{color:#031d36;}
+[data-theme="dark"] .intro .eyebrow{color:#031d36;}
+[data-theme="dark"] .intro h1 span{background-image:linear-gradient(110deg,#031e39,#01172d);}
+@media screen and (min-width:761px){
+ body:not(.is-class-page):not(.is-bells-page) .intro>div:first-child{justify-content:flex-start;}
+ body:not(.is-class-page):not(.is-bells-page) .intro h1{position:absolute;left:0;right:170px;top:50%;transform:translateY(-50%);margin:0;line-height:1.5;}
+ body:not(.is-class-page):not(.is-bells-page) .intro .eyebrow{transform:translateY(-6px);}
+}
+@media screen and (min-width:761px) and (max-width:1100px){
+ .intro,.is-class-page .intro,.is-bells-page .intro{grid-template-columns:minmax(0,1fr) 260px;}
+ .intro>div:first-child,.is-class-page .intro>div:first-child,.is-bells-page .intro>div:first-child{padding-right:165px;}
+ .school-home,.is-class-page .school-home,.is-bells-page .school-home{width:115px;}
+ .intro .ukraine-emblem{left:auto;right:431px;width:34px;height:48px;transform:translateY(-50%);}
+ body:not(.is-class-page):not(.is-bells-page) .intro h1{right:165px;}
+ body:not(.is-class-page):not(.is-bells-page) .intro .eyebrow{font-size:9px;letter-spacing:.4px;white-space:nowrap;gap:6px;}
+}
+@media screen and (max-width:760px){
+ .header{border-bottom-width:3px;}
+ .intro .clock-card{background:transparent;border-color:transparent;box-shadow:none;color:#0d2d50;}
+ .intro .clock-top,.intro .clock-time,.intro .clock-time span,.intro .clock-bottom,.intro #sync-status{color:#0d2d50;}
+ .intro .clock-bottom{border-top-color:transparent;}
+ .intro .clock-top .live-dot{background:#0759a8;box-shadow:0 0 0 4px #ffffff38;}
+ .intro>div:first-child,.is-class-page .intro>div:first-child,.is-bells-page .intro>div:first-child{padding-right:122px;}
+ .intro .ukraine-emblem{left:auto;right:98px;top:18px;width:26px;height:37px;transform:none;}
+}
+@media screen and (max-width:350px){
+ body:not(.is-class-page):not(.is-bells-page) .intro>div:first-child{padding-right:84px;}
+ body:not(.is-class-page):not(.is-bells-page) .intro h1{font-size:22px;}
+ body:not(.is-class-page):not(.is-bells-page) .school-home{width:52px;}
+ body:not(.is-class-page):not(.is-bells-page) .school-home img{max-height:52px;}
+ body:not(.is-class-page):not(.is-bells-page) .intro .ukraine-emblem{right:74px;width:20px;height:28px;}
+}

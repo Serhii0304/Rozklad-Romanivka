@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Англійська мова</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M15 8h34a8 8 0 018 8v24a8 8 0 01-8 8H31L19 57V48h-4a8 8 0 01-8-8V16a8 8 0 018-8z" fill="#57B9EC"/>
+<rect x="13" y="15" width="38" height="26" rx="2" fill="#2454A4"/>
+<path d="M13 15h6l32 21v5h-6L13 20zM45 15h6v5L19 41h-6v-5z" fill="#FFFFFF" stroke="none"/>
+<path d="M13 15h3l35 23v3h-3L13 18zM48 15h3v3L16 41h-3v-3z" fill="#ED5C65" stroke="none"/>
+<path d="M27.5 15h9v26h-9zM13 23.5h38v9H13z" fill="#FFFFFF" stroke="none"/>
+<path d="M29.5 15h5v26h-5zM13 25.5h38v5H13z" fill="#ED5C65" stroke="none"/>
+<rect x="13" y="15" width="38" height="26" rx="2" fill="none"/>
+</g>
+</svg>

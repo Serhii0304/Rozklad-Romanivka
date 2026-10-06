@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Математика">
+<circle cx="48" cy="46" r="36" fill="#E7F4F1"/>
+<ellipse cx="47" cy="82" rx="29" ry="4" fill="#D7E8E2"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<rect x="23" y="11" width="50" height="73" rx="9" fill="#5DAA9E"/>
+<rect x="30" y="19" width="36" height="18" rx="4" fill="#DFF3E3"/>
+<path d="M54 25h5v6h-5m-7-6h-5v6h5" stroke="#518C79" stroke-width="2"/>
+<rect x="31" y="45" width="13" height="12" rx="3" fill="#FFFAE8"/>
+<rect x="52" y="45" width="13" height="12" rx="3" fill="#FFFAE8"/>
+<rect x="31" y="64" width="13" height="12" rx="3" fill="#FFFAE8"/>
+<rect x="52" y="64" width="13" height="12" rx="3" fill="#EFC366"/>
+<path d="M35 51h5m-2.5-2.5v5M56 51h5M35 68l5 4m0-4-5 4M56 68h5m-5 4h5" stroke-width="1.8"/>
+<path d="M28 17v59" stroke="#A3D8C8" stroke-width="2"/>
+</g>
+<path d="m80 20 3 6-3 6-3-6Z" fill="#D7AF67"/>
+</svg>

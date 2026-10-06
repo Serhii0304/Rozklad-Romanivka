@@ -1,0 +1,23 @@
+Use case: scientific-educational / style-transfer.
+Create a complete finished Ukrainian weekly school timetable print poster for Romanivka, grade 5. The attached image is STYLE AND LAYOUT REFERENCE ONLY from a different school: retain its elegant decorative art, matching class color palette, gold grid, readable ivory cells, books and educational scenery. All text, every timetable cell and all lesson times must be replaced with the exact new data below. Generate the entire final poster including all grid lines, titles, cell text and small subject illustrations in one image. Not a template, not a blank background. A4 landscape aspect ratio 1.414, at least1492×1054 pixels. No external white frame, no URL, date stamp, page number, technical description or watermark.
+
+Center the whole title block precisely over the table. Exact title text in these centered lines:
+РОМАНІВСЬКИЙ ЛІЦЕЙ
+ім. М. Т. Рильського
+РОЗКЛАД УРОКІВ
+5 КЛАС
+І семестр · 2026–2027 навчальний рік
+
+Retain a professional, beautiful complete table that occupies most of the page. Exactly six columns: Урок / час | Понеділок | Вівторок | Середа | Четвер | П’ятниця. Exactly seven lesson rows, numbered1–7. Each lesson-number/time entry is compact, centered and bold. Each subject label and its icon together must be centered inside its own cell; subject text bold, dark and very readable, icons small tasteful accents no more than20% of the cell width. Consistent subject-specific icons; an icon repeats only for the same subject. Ukrainian language notebook+pen, Ukrainian literature openbook+feather, foreign literature bookstack, English BigBen, maths calculator, algebra x², geometry compass, physics atom, chemistry flasks, biology microscope, geography globe, history hourglass, technology gears+triangle, arts palette, computing laptop, health hands+heart, financialliteracy coins. Never let icons compete with text. Long labels may wrap at natural word boundaries without truncation. Empty cells contain only centered emdash and no icon. IMPORTANT: all cell text comes solely from the following table, ignore every old subject in the reference.
+
+DATA (each line is one full row; separator | delineates columns, do not print the separator):
+Урок / час | Понеділок | Вівторок | Середа | Четвер | П’ятниця
+1  08:30–09:15 | Англійська мова | Фізична культура | Математика | Математика | Здоров’я, безпека та добробут
+2  09:25–10:10 | Фізична культура | Пізнаємо природу | Інформатика | Українська мова | Українська мова
+3  10:30–11:15 | Технології | Математика | Українська мова | Математика | Англійська мова
+4  11:35–12:20 | Математика | Англійська мова | Фізична культура | Зарубіжна література | Українська література
+5  12:30–13:15 | Українська мова | Мистецтво | Українська мова | Англійська мова | Інформатика
+6  13:25–14:10 | Історія | — | — | Українська література | —
+7  14:20–15:05 | — | — | — | — | —
+
+Check all35subject cells, all7time ranges, both subgroup suffixes when present, and every title word before finalizing. This is a functional student timetable; exact data and readable typography take priority. Preserve repeated subjects at separate lesson times. Output only the single finished full-color landscape poster.

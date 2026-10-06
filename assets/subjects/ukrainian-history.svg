@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Історія України</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 28h7v-6h7v6h7v28H6zM37 28h7v-6h7v6h7v28H37z" fill="#FFC95C"/>
+<path d="M27 32h10v24H27z" fill="#FFC95C"/>
+<path d="M27 56V45a5 5 0 0110 0v11M12 36h7v8h-7M45 36h7v8h-7M5 57h54" fill="#57B9EC"/>
+<path d="M32 7v24" fill="none"/>
+<path d="M33 7h19v7H33z" fill="#49A9EA"/>
+<path d="M33 14h19v7H33z" fill="#FFD15C"/>
+</g>
+</svg>

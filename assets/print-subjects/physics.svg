@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Фізика">
+<circle cx="48" cy="47" r="36" fill="#EAF0FA"/>
+<ellipse cx="48" cy="83" rx="32" ry="4" fill="#D7E1F0"/>
+<g stroke="#416E9D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="48" cy="47" rx="37" ry="15" fill="none"/>
+<ellipse cx="48" cy="47" rx="37" ry="15" transform="rotate(60 48 47)" fill="none"/>
+<ellipse cx="48" cy="47" rx="37" ry="15" transform="rotate(120 48 47)" fill="none"/>
+<circle cx="48" cy="47" r="12" fill="#EBAC61" stroke="#18374F" stroke-width="2.8"/>
+<path d="M43 42a7 7 0 0 1 7-2" stroke="#FFE3A1" stroke-width="3"/>
+<circle cx="14" cy="42" r="6" fill="#77B4C2" stroke="#18374F" stroke-width="2.4"/>
+<circle cx="69" cy="19" r="6" fill="#A390C7" stroke="#18374F" stroke-width="2.4"/>
+<circle cx="65" cy="75" r="6" fill="#DF8D7D" stroke="#18374F" stroke-width="2.4"/>
+</g>
+</svg>

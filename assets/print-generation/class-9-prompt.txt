@@ -1,0 +1,27 @@
+Use case: text-localization / scientific-educational.
+Asset type: Final complete Ukrainian school WEEKLY timetable print poster. One fully generated raster image containing final typography, entire table and small subject illustrations. Landscape A4ratio297:210, native image at least1492×1054. No mockup, no perspective.
+Input image1 is edit target and exact visual style reference. Keep elegant ivory background, beautiful decorative school objects around edges, navy bold serif type, gold fine grid, class-colored header, centered titles. Adapt it from Kvitneve to Romanivka and replace ALL timetable cells/times using data below. Preserve overall polished style, narrow page edge padding and proportions. The entire table must be generated in the image with real legible text; do not leave a blank grid. Title and subtitle centered over full table.
+Header exact centered text:
+"РОМАНІВСЬКИЙ ЛІЦЕЙ"
+"ім. М. Т. Рильського"
+"РОЗКЛАД УРОКІВ"
+"9 КЛАС"
+"І семестр · 2026–2027 навчальний рік"
+Keep school subname small; keep header compact so table occupies most of page, no excessive decoration. Replace all Kvitneve wording. Keep title bold, elegant and well aligned.
+
+TABLE: first header cell "Урок / час", then EXACT five weekday headers left to right:
+"Понеділок" | "Вівторок" | "Середа" | "Четвер" | "П’ятниця"
+Exactly seven numbered lesson rows. First column contains lessonnumber and time (time is modestly smaller).
+Each row below is: lessonnumber | exact time | Monday | Tuesday | Wednesday | Thursday | Friday.
+1 | 08:30–09:15 | Правознавство | Англійська мова | Фізична культура | Англійська мова | Українська мова
+2 | 09:25–10:10 | Фінансова грамотність | Алгебра | Геометрія | Історія | Географія
+3 | 10:30–11:15 | Алгебра | Історія | Українська мова | Хімія | Інформатика
+4 | 11:35–12:20 | Технології | Хімія | Алгебра | Біологія | Англійська мова
+5 | 12:30–13:15 | Історія | Біологія | Мистецтво | Українська мова | Українська література
+6 | 13:25–14:10 | Фізика | Українська мова | Інформатика | Фізична культура | Фізика
+7 | 14:20–15:05 | Здоров’я, безпека та добробут | Фізична культура | Фізика | Зарубіжна література | —
+
+CRITICAL: reproduce ALL35 subject cells EXACTLY, no replacing Алгебра or Геометрія by Математика; no replacing Історія by Історія України; no changing or deduplicating subjects between separate lesson rows. Repeated consecutive subject lessons are real. An emdash means empty cell, show only "—" there and NO illustration. Exact Cyrillic spelling, complete names; allow tasteful two or three centered lines for long names.
+
+Illustrations: unique recognizable icon for each DIFFERENT subject, SAME illustration whenever that subject repeats. SMALL icons as helpful accents (about one quarter of cell width maximum); bold dark text must dominate each cell, center icon+text group within cell. Subjects mapping when applicable: Українська мова open book+blue pen; Українська література book+quill; Зарубіжна література stack ofbooks+globe; Англійська мова BigBen; Фізична культура shoe+ball; Алгебра small calculator with x; Геометрія triangle+ruler; Фізика atom; Хімія coloredlabflasks; Біологія microscope+leaf; Географія globe; Історія hourglass; Інформатика laptop; Технології gears+draftingtools; Мистецтво theatermasks+musicalnote; Здоров’я, безпека та добробут handsprotectingheart; Фінансова грамотність coins+smallpiggybank; Правознавство balance scale; Громадянська освіта civicpeople/groupemblem; Захист України blueyellowshieldwithtrident; Астрономія telescope.
+Do not reuse an icon for different subjects. No additional subjects or labels. Preserve every requested cell and time, no spelling errors, no additional footer text, URL, QR or technical descriptions. All seven times are NEW and differ from reference. Center table content. Print ready polished raster image, native output untouched.

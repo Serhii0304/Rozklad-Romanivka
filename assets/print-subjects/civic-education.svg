@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Громадянська освіта">
+<circle cx="48" cy="45" r="36" fill="#EAF2FA"/>
+<ellipse cx="48" cy="81" rx="37" ry="4" fill="#D8E3ED"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M33 28v-9a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v13a6 6 0 0 1-6 6H48l-9 7v-7" fill="#B5D8E5"/>
+<path d="m42 25 5 5 9-10" stroke="#39758B" stroke-width="3"/>
+<circle cx="22" cy="43" r="10" fill="#F4C69A"/>
+<circle cx="75" cy="43" r="10" fill="#DCAD85"/>
+<path d="M8 76V64c0-12 23-15 29-4l11 10-8 9-15-11v12H8Z" fill="#5A9FAA"/>
+<path d="M88 76V64c0-12-23-15-29-4L48 70l8 9 15-11v12h17Z" fill="#E79772"/>
+<path d="m36 62 9 6 7-4 12 9-6 8a5 5 0 0 1-7 1L37 73l-5-6Z" fill="#F1BD91"/>
+<path d="m48 69-5 4m10 1-4 4m9 0-3 4" stroke="#B77E62" stroke-width="1.8"/>
+<path d="M13 40c0-11 15-14 18-3m35 1c4-7 11-7 17-1" fill="#524C49"/>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Фізика (астрономія)">
+<circle cx="48" cy="45" r="36" fill="#EFEFFA"/>
+<ellipse cx="47" cy="84" rx="29" ry="4" fill="#DDDEED"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="m18 41 40-20 13 25-40 20Z" fill="#809BC5"/>
+<path d="m13 42 7-4 13 25-7 4Z" fill="#D2DFEE"/>
+<path d="m57 20 9-5 15 29-9 5Z" fill="#E5B367"/>
+<path d="m34 66 8-4 2 5-8 4Z" fill="#ADC5DD"/>
+<path d="m27 43 27-14" stroke="#BFCEE3" stroke-width="3"/>
+<path d="M48 56v10m0 0L29 83m19-17 19 17m-19-17v18" stroke="#668094" stroke-width="4"/>
+<circle cx="48" cy="65" r="5" fill="#D8AA65"/>
+<circle cx="77" cy="68" r="8" fill="#B5A0CF"/>
+<ellipse cx="77" cy="68" rx="15" ry="4" transform="rotate(-23 77 68)" stroke="#8A75AA" stroke-width="2"/>
+</g>
+<path d="m23 13 2 5 5 2-5 2-2 5-2-5-5-2 5-2Zm58-3 2 4 4 2-4 2-2 4-2-4-4-2 4-2Z" fill="#D8B46D"/>
+</svg>

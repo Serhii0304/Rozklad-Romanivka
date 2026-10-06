@@ -1,0 +1,19 @@
+{
+  "dayId": "wednesday",
+  "method": "builtin-imagegen-full",
+  "accepted": true,
+  "cellsChecked": 49,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "iconsApproved": true,
+  "styleMatched": true,
+  "gridFillsPage": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-0c55aff8-caac-41fa-a19a-7720b3afbf0c.png",
+  "promptPath": "assets/print-week-generation/wednesday-prompt.txt",
+  "nativeWidth": 1492,
+  "nativeHeight": 1054,
+  "review": "Root visually checked all49 subjectcells includingblankcells andgroupqualifier,7 bellranges,headertitles,iconmeaningandtableborders against independently verified Romanivkaconfig. Fullygenerated nativePNG unchanged.",
+  "imageSha256": "efd3f77c8db59b8bca6411b7d3874eceecc70edbb247694c8cedd4b07c0fcc9d"
+}

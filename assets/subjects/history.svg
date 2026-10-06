@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Історія</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M24 7h16v7l-5 5v5c0 5 11 7 11 18 0 9-7 15-14 15s-14-6-14-15c0-11 11-13 11-18v-5l-5-5z" fill="#FFC95C"/>
+<path d="M27 19c-15-6-18 8-10 16l5 3M37 19c15-6 18 8 10 16l-5 3" fill="none" stroke-width="4"/>
+<path d="M23 36h18M19 43h26M23 48l4 4 5-4 5 4 4-4M25 12h14" fill="none"/>
+<path d="M9 52l5 6m-5-2 1-5m1 7 5-1M54 52l-5 6m5-2-1-5m-1 7-5-1" fill="none" stroke="#69CDA4"/>
+</g>
+</svg>

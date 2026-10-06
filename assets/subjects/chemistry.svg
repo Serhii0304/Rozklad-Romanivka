@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Хімія</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M23 7h18v7h-4v15l17 24c2 3 0 6-4 6H14c-4 0-6-3-4-6l17-24V14h-4z" fill="#FFFFFF"/>
+<path d="M20 39c8 4 16-4 24 0l10 14c2 3 0 6-4 6H14c-4 0-6-3-4-6z" fill="#57B9EC"/>
+<path d="M27 14h10M24 29h6m-11 8h6m-9 10h6" fill="none"/>
+<circle cx="35" cy="47" r="4" fill="#FFC95C"/>
+<circle cx="43" cy="52" r="2" fill="#FFC95C"/>
+<circle cx="45" cy="23" r="4" fill="#FF8273"/>
+<circle cx="17" cy="18" r="3" fill="#FFC95C"/>
+</g>
+</svg>

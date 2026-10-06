@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Українська література</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10 12h33v44H15a5 5 0 01-5-5z" fill="#57B9EC"/>
+<path d="M16 12v37h27v7H15a5 5 0 010-10h28" fill="none"/>
+<path d="M23 21h13m-13 6h11m-11 6h8" fill="none" stroke="#FFFFFF"/>
+<path d="M36 48C31 26 48 9 59 7c2 18-7 31-23 41z" fill="#FFC95C"/>
+<path d="M30 58L53 15M39 40l11-2m-6-8 11-3m-10 2-2-9" fill="none"/>
+</g>
+</svg>

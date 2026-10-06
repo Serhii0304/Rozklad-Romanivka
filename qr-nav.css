@@ -1,0 +1,24 @@
+footer .footer-links{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:6px 12px}
+footer .footer-links a{white-space:nowrap}
+a.qr-access{position:relative;isolation:isolate;display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:62px;padding:9px 16px;border:2px solid #ffda62;border-radius:16px;background:linear-gradient(125deg,#075b98,#15569b 52%,#173e77);color:#fff;text-decoration:none;text-align:left;box-shadow:0 0 0 1px #fff8,0 0 18px #35a4ed80,0 5px 16px #103f7752,inset 0 1px 0 #ffffff91;overflow:hidden;animation:none;transition:none}
+a.qr-access::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(118deg,transparent 20%,#ffffff1a 35%,transparent 48%)}
+a.qr-access .qr-access-icon{display:block;flex:0 0 38px;width:38px;height:38px;padding:5px;border:1px solid #fff;border-radius:9px;color:#134a76;background:#f6fcff;box-shadow:0 0 10px #fff5}
+a.qr-access .qr-access-copy{display:grid;gap:2px;min-width:0;margin:0}
+a.qr-access .qr-access-copy strong{display:block;margin:0;color:#fff;font-family:inherit;font-size:18px;font-weight:800;line-height:1.25;white-space:nowrap}
+a.qr-access .qr-access-copy>span{display:block;margin:0;color:#e8f5ff;font-size:12px;font-weight:700;line-height:1.3;white-space:nowrap}
+a.qr-access .qr-access-arrow{display:block;margin:0;font-size:23px;font-weight:800;color:#ffdf79;line-height:1}
+a.qr-access:hover,a.qr-access:focus-visible{border-color:#fff0b3;box-shadow:0 0 0 2px #fff9,0 0 24px #50bfff99,0 6px 18px #123a7770,inset 0 1px 0 #fff}
+a.qr-access:focus-visible{outline:3px solid #e4aa25;outline-offset:4px}
+:root[data-theme="dark"] a.qr-access{box-shadow:0 0 0 1px #ffe79b70,0 0 22px #249eff80,0 5px 18px #0004,inset 0 1px 0 #ffffff8c}
+@media screen and (max-width:900px), screen and (orientation:landscape) and (max-width:1000px) and (max-height:500px){
+ footer{flex-wrap:wrap}
+ footer .footer-links{width:100%;justify-content:space-between}
+ #schedule>.section-heading{flex-wrap:wrap}
+ #schedule>.section-heading>.print-heading-actions{width:100%;min-width:0}
+ #schedule .print-heading-actions>.qr-access{width:100%;flex:0 0 100%}
+ body.is-bells-page #bells .section-heading{width:100%;flex-wrap:wrap}
+ body.is-bells-page #bells .bells-heading-actions{width:100%}
+ body.is-bells-page #bells .bells-heading-actions>.qr-access{width:100%;flex:0 0 100%}
+ footer .footer-links>.qr-access{width:100%;flex:0 0 100%}
+}
+@media print{footer .footer-links,.qr-access{display:none!important}}

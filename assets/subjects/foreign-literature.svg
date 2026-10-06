@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Зарубіжна література</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M7 24c9-5 17-4 25 1 8-5 16-6 25-1v30c-9-4-17-3-25 1-8-4-16-5-25-1z" fill="#FFC95C"/>
+<path d="M32 25v30M13 33l12 2m-12 6 12 2m14-8 11-2m-11 10 11-2" fill="none"/>
+<circle cx="44" cy="15" r="11" fill="#57B9EC"/>
+<ellipse cx="44" cy="15" rx="4.5" ry="11" fill="none"/>
+<path d="M33 15h22M13 12l3-7 3 7 7 3-7 3-3 7-3-7-7-3z" fill="#FF8273"/>
+</g>
+</svg>

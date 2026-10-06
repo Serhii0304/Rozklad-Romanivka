@@ -1,0 +1,1818 @@
+{
+  "schemaVersion": 2,
+  "format": "A4 landscape",
+  "generationMethod": "builtin-imagegen-full",
+  "style": "academic-navy-ivory-gold-v1",
+  "originalsUnmodified": true,
+  "configHashMethod": "sha256(JSON.stringify(parsed SchoolScheduleConfig))",
+  "configSha256": "a137c7abb716031d00f678a6bde7c04601bd516a4d6d4607e27c6b0559656fbf",
+  "reviewMethod": "Recorded visual review of generated titles, spelling, lesson times and all 49 cells per image. Checksums link those records to accepted PNGs; validation does not perform OCR.",
+  "complete": true,
+  "posters": [
+    {
+      "dayId": "monday",
+      "label": "Понеділок",
+      "path": "assets/print-week/monday.png",
+      "previewPath": "assets/print-week/monday-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "be3aef4fd2c88cbad1fdb7990d323679a65de38c5a533077806691139f476739",
+      "previewSha256": "90634f1335e0b82b065cda67ea665eebe42d6fc8e04e4978cdc73d3bd8cbe805",
+      "promptPath": "assets/print-week-generation/monday-prompt.txt",
+      "promptSha256": "f95839dba04fe4fd93e3903d0e4500dbe0043f85bcf3b2394fa21517da2b8b64",
+      "reviewPath": "assets/print-week-generation/monday-review.json",
+      "reviewSha256": "a01b3e5c125fb71289e58e2688353307e8e77eae9954cf723ce87cd43a66d97f",
+      "cellCount": 49,
+      "filledCount": 43,
+      "cells": [
+        {
+          "className": "5 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Географія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Хімія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Правознавство"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Технології"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фінансова грамотність"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Технології"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Географія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Алгебра"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Хімія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Математика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Географія"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Технології"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Громадянська освіта"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Біологія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Хімія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Історія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Алгебра"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Історія"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізика"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "8 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "9 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Біологія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "dayId": "tuesday",
+      "label": "Вівторок",
+      "path": "assets/print-week/tuesday.png",
+      "previewPath": "assets/print-week/tuesday-preview.webp",
+      "width": 1491,
+      "height": 1055,
+      "sha256": "65cbd9c2f98b2ebe00eff6ad52629fcc5ce6f7cc4d9965efcc2c16c4c18beede",
+      "previewSha256": "91aec40dc49bd86f6d1d2f3cecadf1a6f60a5dff03e34ebf1867c2d6cd3032a5",
+      "promptPath": "assets/print-week-generation/tuesday-prompt.txt",
+      "promptSha256": "b1f2f93235f50c2a7123c568b1286094aee350a2bc32f37184566e4a03d9b4ec",
+      "reviewPath": "assets/print-week-generation/tuesday-review.json",
+      "reviewSha256": "fc31af430dfcae205392c6d1bf8efa39773c452509d5899957c25f4b9f6bfd92",
+      "cellCount": 49,
+      "filledCount": 42,
+      "cells": [
+        {
+          "className": "5 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Біологія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Геометрія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Географія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Пізнаємо природу"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Біологія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Геометрія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Пізнаємо природу"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Мистецтво"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Алгебра"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Хімія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська література"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Біологія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Геометрія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Географія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Технології"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "8 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "9 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "11 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Технології"
+        }
+      ]
+    },
+    {
+      "dayId": "wednesday",
+      "label": "Середа",
+      "path": "assets/print-week/wednesday.png",
+      "previewPath": "assets/print-week/wednesday-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "efd3f77c8db59b8bca6411b7d3874eceecc70edbb247694c8cedd4b07c0fcc9d",
+      "previewSha256": "93effb184fd0169f0351c3b2c7a4a012d47b7e54e3a33d10bbf6c35bda484a07",
+      "promptPath": "assets/print-week-generation/wednesday-prompt.txt",
+      "promptSha256": "8249df0038fac64d370a129320b70f5620507553f46b25c0fd7b2057c9898287",
+      "reviewPath": "assets/print-week-generation/wednesday-review.json",
+      "reviewSha256": "2d76275bd0864aa6c165c71d0b0e19e4ec627030d3f82798feb2c93eb0f1835a",
+      "cellCount": 49,
+      "filledCount": 44,
+      "cells": [
+        {
+          "className": "5 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Технології"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Інформатика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська література"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Геометрія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізика"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Геометрія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Захист України"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Алгебра"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Алгебра"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Захист України"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Інформатика"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Захист України"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Інформатика"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Географія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Захист України"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Інформатика (1 група)"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізика"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "dayId": "thursday",
+      "label": "Четвер",
+      "path": "assets/print-week/thursday.png",
+      "previewPath": "assets/print-week/thursday-preview.webp",
+      "width": 1492,
+      "height": 1054,
+      "sha256": "d62ed6e98aba54eee0279582cf5a39a7be44c5c2ddd9b1dda3accf0d00d815d8",
+      "previewSha256": "0d15c56b3b6b91341ffa4884a73a862a4c4627f95a5f86fe72d6ef25e0851b7f",
+      "promptPath": "assets/print-week-generation/thursday-prompt.txt",
+      "promptSha256": "1842b2439b9d616c2130a5a6fa2d35590220280a9b16d93c39ca3c8d89d5ea49",
+      "reviewPath": "assets/print-week-generation/thursday-review.json",
+      "reviewSha256": "a592c66559dc8c13987fef65e2f3a513bb8e1fbb7ecdddeccae7cc4ba0e2b2cf",
+      "cellCount": 49,
+      "filledCount": 44,
+      "cells": [
+        {
+          "className": "5 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Хімія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Математика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Хімія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Алгебра"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Хімія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Біологія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Геометрія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Фізика"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Математика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Мистецтво"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Біологія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Математика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Технології"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Біологія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізична культура"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "8 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "9 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "11 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Фізика"
+        }
+      ]
+    },
+    {
+      "dayId": "friday",
+      "label": "П’ятниця",
+      "path": "assets/print-week/friday.png",
+      "previewPath": "assets/print-week/friday-preview.webp",
+      "width": 1491,
+      "height": 1055,
+      "sha256": "18d105d9184449ec3768e817a60f3d2f0ce837c590e8ef225dbbb1049f075760",
+      "previewSha256": "6ed7d13dbe024d2c28f75d166862d54e3b0434be6d1115859db019d0aa046d03",
+      "promptPath": "assets/print-week-generation/friday-prompt.txt",
+      "promptSha256": "20e833f1fad3ea47ceb95a15178a0b47195887a169607c60ae3f899eff7e6c2b",
+      "reviewPath": "assets/print-week-generation/friday-review.json",
+      "reviewSha256": "1d4396e14aa7b42b8a470717ccb02d3094630bac35c9c34d53be29c959f86b4e",
+      "cellCount": 49,
+      "filledCount": 42,
+      "cells": [
+        {
+          "className": "5 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Математика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 1,
+          "start": "08:30",
+          "end": "09:15",
+          "value": "Історія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Математика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Історія"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Географія"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 2,
+          "start": "09:25",
+          "end": "10:10",
+          "value": "Інформатика"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Математика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Здоров’я, безпека та добробут"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Історія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 3,
+          "start": "10:30",
+          "end": "11:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Українська література"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Інформатика"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Математика"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Історія"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Географія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 4,
+          "start": "11:35",
+          "end": "12:20",
+          "value": "Зарубіжна література"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Інформатика"
+        },
+        {
+          "className": "6 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фінансова грамотність"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Українська література"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Географія"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 5,
+          "start": "12:30",
+          "end": "13:15",
+          "value": "Фізика"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська мова"
+        },
+        {
+          "className": "7 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Англійська мова"
+        },
+        {
+          "className": "8 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Українська література"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Фізика"
+        },
+        {
+          "className": "10 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Громадянська освіта"
+        },
+        {
+          "className": "11 клас",
+          "lesson": 6,
+          "start": "13:25",
+          "end": "14:10",
+          "value": "Астрономія"
+        },
+        {
+          "className": "5 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "6 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "7 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "8 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": "Інформатика (2 група)"
+        },
+        {
+          "className": "9 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "10 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        },
+        {
+          "className": "11 клас",
+          "lesson": 7,
+          "start": "14:20",
+          "end": "15:05",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

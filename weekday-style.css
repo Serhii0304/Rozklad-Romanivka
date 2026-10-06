@@ -1,0 +1,145 @@
+/* Weekday identity: static enamel faces, bright edges and readable day names. */
+@media screen {
+  #day-tabs {
+    display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;min-width:0;
+  }
+  #day-tabs button,
+  #schedule-content .weekday-title-button,
+  #schedule-content .weekday-column-button {
+    --weekday-face:linear-gradient(135deg,#fffffff5,var(--day-soft));
+    --weekday-edge:linear-gradient(120deg,var(--day-ink),var(--day-glow) 23%,#fff8d9 34%,var(--day-glow) 48%,var(--day-ink) 78%,#fff0c2);
+    position:relative;display:inline-flex;align-items:center;justify-content:center;
+    gap:8px;min-width:0;min-height:56px;padding:11px 16px;overflow:hidden;
+    border:2px solid transparent;border-radius:15px;
+    background:var(--weekday-face) padding-box,var(--weekday-edge) border-box;
+    color:var(--day-ink);box-shadow:0 3px 0 var(--day-glow),0 6px 12px #18365a12;
+    font-family:inherit;font-size:22px;font-weight:800;line-height:1.2;letter-spacing:-.45px;
+    white-space:nowrap;word-break:normal;overflow-wrap:normal;hyphens:none;text-align:center;
+    text-shadow:0 1px 0 #ffffff60;transform:none;transition:none;animation:none;
+  }
+  #day-tabs button::after,
+  #schedule-content .weekday-title-button::after,
+  #schedule-content .weekday-column-button::after {
+    content:"";position:absolute;inset:0;width:auto;height:auto;border-radius:inherit;
+    background:
+      radial-gradient(ellipse 19px 2px at 18% 0%,#fff 15%,#ffffff00 100%),
+      radial-gradient(ellipse 2px 11px at 0% 24%,#fff 10%,#ffffff00 100%),
+      radial-gradient(ellipse 16px 2px at 82% 100%,#fff 15%,#ffffff00 100%),
+      radial-gradient(ellipse 2px 9px at 100% 76%,#fff 10%,#ffffff00 100%);
+    opacity:.75;transform:none;pointer-events:none;animation:none;transition:none;
+  }
+  /* Override the older travelling press sheen, including its active selector. */
+  #day-tabs button.press-flash::after { animation:none; }
+  #day-tabs button:is(:hover,:active,.is-today),
+  #schedule-content :is(.weekday-title-button,.weekday-column-button):is(:hover,:active) {
+    border-color:transparent;color:var(--day-ink);
+    background:var(--weekday-face) padding-box,var(--weekday-edge) border-box;
+    box-shadow:0 3px 0 var(--day-glow),0 6px 12px #18365a12;transform:none;
+  }
+  #day-tabs button[aria-pressed="true"],
+  #day-tabs button.is-today[aria-pressed="true"] {
+    --weekday-face:linear-gradient(135deg,var(--day-ink),#243960);
+    color:#fff;border-color:transparent;
+    background:var(--weekday-face) padding-box,var(--weekday-edge) border-box;
+    box-shadow:0 0 0 2px var(--white),0 0 0 4px var(--day-glow),0 5px 10px #18365a24;
+    text-shadow:none;
+  }
+  #day-tabs button:focus-visible,
+  #schedule-content .weekday-title-button:focus-visible,
+  #schedule-content .weekday-column-button:focus-visible {
+    outline:3px solid var(--day-ink);outline-offset:5px;
+  }
+  #day-tabs .day-label-full,#day-tabs .day-label-short {
+    font:inherit;color:inherit;white-space:nowrap;word-break:normal;overflow-wrap:normal;
+  }
+  #day-tabs .today-dot {
+    position:absolute;right:7px;bottom:6px;margin:0;width:5px;height:5px;box-shadow:none;
+  }
+  #schedule-content .weekday-title-button {
+    flex-direction:column;gap:3px;min-height:60px;padding:11px 30px;font-size:29px;letter-spacing:-.6px;border-radius:17px;
+  }
+  #schedule-content .weekday-column-button {
+    width:100%;min-height:46px;padding:8px 9px;font-size:18px;letter-spacing:-.35px;
+    border-radius:11px;box-shadow:0 2px 0 var(--day-glow);
+  }
+  #schedule-content .week-title .weekday-title-button > span {
+    position:static;margin:0;color:inherit;font:inherit;transform:none;
+  }
+  #schedule-content .week-title .weekday-title-button .day-button-status,
+  #schedule-content .weekday-column-button .day-button-status {
+    font-size:10px;line-height:1.2;font-weight:800;letter-spacing:.8px;
+  }
+  :root[data-theme="dark"] #day-tabs button:not([aria-pressed="true"]),
+  :root[data-theme="dark"] #schedule-content .weekday-title-button,
+  :root[data-theme="dark"] #schedule-content .weekday-column-button {
+    --weekday-face:linear-gradient(135deg,#23334c,#18263c);
+    color:var(--day-glow);
+    background:var(--weekday-face) padding-box,var(--weekday-edge) border-box;text-shadow:none;
+  }
+  :root[data-theme="dark"] #day-tabs button:focus-visible,
+  :root[data-theme="dark"] #schedule-content .weekday-title-button:focus-visible,
+  :root[data-theme="dark"] #schedule-content .weekday-column-button:focus-visible {
+    outline-color:var(--day-glow);
+  }
+}
+
+/* Fine pointers get one opacity glint per interaction; no idle animation. */
+@media screen and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  [data-effects="full"] #day-tabs button:is(:hover,:focus-visible,.press-flash)::after,
+  [data-effects="full"] #schedule-content .weekday-title-button:is(:hover,:focus-visible,.press-flash)::after,
+  [data-effects="full"] #schedule-content .weekday-column-button:is(:hover,:focus-visible,.press-flash)::after {
+    animation:weekday-edge-glint .65s ease-out 1;
+  }
+}
+@keyframes weekday-edge-glint {
+  0% { opacity:.35; }
+  40% { opacity:1; }
+  100% { opacity:.75; }
+}
+
+@media screen and (max-width:1100px) {
+  .day-toolbar { flex-wrap:wrap; }
+  #day-tabs { width:100%;flex-basis:100%;gap:8px; }
+}
+@media screen and (max-width:760px) {
+  #day-tabs { gap:7px; }
+  #day-tabs button { min-height:49px;padding:9px 5px;font-size:20px;border-radius:12px;letter-spacing:0; }
+  #day-tabs .day-label-full { display:none; }
+  #day-tabs .day-label-short { display:inline; }
+  #schedule-content .weekday-title-button { min-height:52px;padding:10px 23px;font-size:23px;border-radius:14px;letter-spacing:-.35px; }
+  #schedule-content .weekday-column-button { min-height:44px;font-size:17px;padding:8px 7px; }
+}
+
+/* Touch devices and data-saving mode keep the same highlights without motion. */
+@media screen {
+  [data-effects="minimal"] :is(#schedule-content,#print-stage) :is(.subject,.subject-icon,tr,.lesson-number,.row-state),
+  [data-effects="minimal"] :is(#schedule-content,#print-stage) .subject::after,
+  [data-effects="minimal"] :is(#schedule-content,#print-stage) .row-state::before,
+  [data-effects="minimal"] :is(#schedule-content,#print-stage) .row-state::after,
+  [data-effects="minimal"] .nav-icon img {
+    animation:none!important;transition:none!important;
+  }
+  [data-effects="minimal"] .nav-icon img,
+  [data-effects="minimal"] :is(#schedule-content,#print-stage) .subject-icon { transform:none!important; }
+}
+/* Apply before module execution too, preventing a startup animation on phones. */
+@media screen and (max-width:760px), screen and (pointer:coarse), screen and (prefers-reduced-motion:reduce) {
+  :is(#schedule-content,#print-stage) :is(.subject,.subject-icon,tr,.lesson-number,.row-state),
+  :is(#schedule-content,#print-stage) .subject::after,
+  :is(#schedule-content,#print-stage) .row-state::before,
+  :is(#schedule-content,#print-stage) .row-state::after,
+  .nav-icon img { animation:none!important;transition:none!important; }
+  .nav-icon img,:is(#schedule-content,#print-stage) .subject-icon { transform:none!important; }
+}
+
+@media screen and (forced-colors:active) {
+  #day-tabs button,
+  #schedule-content .weekday-title-button,
+  #schedule-content .weekday-column-button { border:2px solid ButtonText;background:ButtonFace;color:ButtonText;box-shadow:none;text-shadow:none; }
+  #day-tabs button[aria-pressed="true"] { border-color:Highlight;background:Highlight;color:HighlightText; }
+  #day-tabs button::after,
+  #schedule-content .weekday-title-button::after,
+  #schedule-content .weekday-column-button::after { display:none; }
+}
+
+@media screen and (max-width:760px){#schedule-content .schedule-table tr.is-current .row-state,#schedule-content .schedule-table tr.is-upcoming .row-state{font-size:10px;line-height:1.3;overflow-wrap:normal;letter-spacing:0;}}

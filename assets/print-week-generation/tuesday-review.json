@@ -1,0 +1,20 @@
+{
+  "dayId": "tuesday",
+  "method": "builtin-imagegen-full",
+  "accepted": true,
+  "cellsChecked": 49,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "iconsApproved": true,
+  "styleMatched": true,
+  "gridFillsPage": true,
+  "remainingIssues": [],
+  "nativeWidth": 1491,
+  "nativeHeight": 1055,
+  "sourceGeneratedPath": "exec-f215bc8d-9264-4559-97bd-115e1c3b8b03.png",
+  "promptPath": "assets/print-week-generation/tuesday-prompt.txt",
+  "reviewedDate": "2026-10-06",
+  "reviewNotes": "Visually read every subject and empty cell against all 49 supplied cells, all seven lesson intervals, seven class headings and four centered title lines. Exact Romanivka schedule, consistent distinct subject icons and complete uncropped navy/ivory/gold border. No text overlays or raster modifications.",
+  "imageSha256": "65cbd9c2f98b2ebe00eff6ad52629fcc5ce6f7cc4d9965efcc2c16c4c18beede"
+}

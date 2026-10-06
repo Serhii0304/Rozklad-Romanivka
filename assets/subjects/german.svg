@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Німецька мова</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M15 8h34a8 8 0 018 8v24a8 8 0 01-8 8H31L19 57V48h-4a8 8 0 01-8-8V16a8 8 0 018-8z" fill="#FFC95C"/>
+<path d="M13 15h38v9H13z" fill="#243042"/>
+<path d="M13 24h38v9H13z" fill="#EB5E64"/>
+<path d="M13 33h38v9H13z" fill="#FFD264"/>
+<rect x="13" y="15" width="38" height="27" rx="2" fill="none"/>
+</g>
+</svg>

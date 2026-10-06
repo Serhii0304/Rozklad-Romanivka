@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Англійська мова">
+<circle cx="48" cy="45" r="36" fill="#FDEAE5"/>
+<ellipse cx="48" cy="80" rx="38" ry="5" fill="#E8D5CE"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M18 20h57a8 8 0 0 1 8 8v40a7 7 0 0 1-7 7H19a7 7 0 0 1-7-7V29a9 9 0 0 1 6-9Z" fill="#DF584F"/>
+<path d="M18 42h59M18 60h39" stroke="#A93839"/>
+<path d="M21 27h13v11H21zm20 0h13v11H41zm20 0h14v11H61z" fill="#D9EFF1"/>
+<path d="M21 48h14v11H21zm21 0h14v11H42zm21 0h13v25H63z" fill="#E0F3F2"/>
+<path d="M68 50v20" stroke="#A2C9CF" stroke-width="2"/>
+<circle cx="28" cy="75" r="8" fill="#294A5B"/>
+<circle cx="69" cy="75" r="8" fill="#294A5B"/>
+<circle cx="28" cy="75" r="3" fill="#E9E1D3" stroke="none"/>
+<circle cx="69" cy="75" r="3" fill="#E9E1D3" stroke="none"/>
+<path d="M12 65h7m59 0h5" stroke="#FFE4A0" stroke-width="4"/>
+<path d="M20 17h53" stroke="#F5AB98" stroke-width="3"/>
+</g>
+</svg>

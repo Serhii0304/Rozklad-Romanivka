@@ -1,0 +1,31 @@
+Use case: text-localization / infographic-diagram.
+Asset type: Final A4 portrait Ukrainian school bell timetable print poster, one complete generated raster image with ALL final text, grid, background and ornaments.
+Input image 1 is the edit target and style reference. Match its beautiful accepted design very closely: ivory paper, navy large bold serif typography, Ukrainian blue/yellow embroidery border, elegant small bell/clock and flowers, centered title. Keep overall layout, 13-row two-column table, narrow border, small outer padding; table dominates the page. Do not use a photo mockup or perspective. This is for a DIFFERENT school and bell schedule; replace the school header and every row exactly below. Preserve style and legibility. No technical labels or added URL.
+
+Centered header exact text, compact four lines:
+"РОМАНІВСЬКИЙ ЛІЦЕЙ"
+"ім. М. Т. Рильського"
+"РОЗКЛАД ДЗВІНКІВ"
+"І семестр · 2026–2027 навчальний рік"
+Keep the subname line smaller than schoolname but readable. Header not taller than necessary.
+
+Main table exactly 13 rows, two columns, in this order:
+"1-й урок" | "08:30–09:15"
+"Перерва" | "09:15–09:25 · 10 хв"
+"2-й урок" | "09:25–10:10"
+"Велика перерва" | "10:10–10:30 · 20 хв"
+"3-й урок" | "10:30–11:15"
+"Велика перерва" | "11:15–11:35 · 20 хв"
+"4-й урок" | "11:35–12:20"
+"Перерва" | "12:20–12:30 · 10 хв"
+"5-й урок" | "12:30–13:15"
+"Перерва" | "13:15–13:25 · 10 хв"
+"6-й урок" | "13:25–14:10"
+"Перерва" | "14:10–14:20 · 10 хв"
+"7-й урок" | "14:20–15:05"
+
+Lesson rows ivory, ordinary breaks pale blue, BOTH 20-minute breaks soft yellow. Lesson labels/times very large bold readable; break text also bold and readable. NO numbering on break rows. Only seven lessons are numbered from1 to7. Reproduce all times exactly; do not accidentally preserve old Kvitneve times.
+Footer exactly:
+"09:00–09:01 · Хвилина мовчання"
+"Київський час"
+Every word Ukrainian exact spelling. School name starts РОМАНІВСЬКИЙ. No other text, no date stamp, no URL, no QR, no technical descriptions. Native portrait high quality raster, A4ratio210:297. Fully generate final typography, table, and art, not a blank template. No thick blank margins; external printer-safe margins will be provided outside the source image.

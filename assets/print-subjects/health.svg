@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Здоров’я, безпека та добробут">
+<circle cx="48" cy="44" r="36" fill="#FCECE8"/>
+<ellipse cx="48" cy="81" rx="34" ry="4" fill="#EEDAD3"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M48 64 24 41C5 21 32 6 48 25 64 6 91 21 72 41Z" fill="#EB847C"/>
+<path d="M24 37h13l6-12 9 26 7-14h13" stroke="#FFF8E8" stroke-width="3.4"/>
+<path d="M11 50c3-2 7 0 8 3l7 10 13 4c4 1 5 6 2 9l-16-3-14-11Z" fill="#F4D2AC"/>
+<path d="M85 50c-3-2-7 0-8 3l-7 10-13 4c-4 1-5 6-2 9l16-3 14-11Z" fill="#F4D2AC"/>
+<path d="m8 61 17 11 4 8-10 5L6 74Zm80 0L71 72l-4 8 10 5 13-11Z" fill="#6BB8AA"/>
+<path d="m26 64 11 4m33-4-11 4" stroke="#C29E7E" stroke-width="2"/>
+</g>
+</svg>

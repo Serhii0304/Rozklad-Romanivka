@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Геометрія</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M8 54l29-37 20 37z" fill="#FFC95C"/>
+<path d="M25 46l12-16 8 16z" fill="#FFFFFF"/>
+<path d="M27 10L14 43l5 2L32 14M32 14l9 25 5-2-12-27" fill="#57B9EC"/>
+<circle cx="31" cy="11" r="5" fill="#57B9EC"/>
+<path d="M15 44l-2 7M46 37l2 7M30 54v-4m7 4v-4m7 4v-4m7 4v-4" fill="none"/>
+</g>
+</svg>

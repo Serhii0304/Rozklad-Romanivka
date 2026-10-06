@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Образотворче мистецтво</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M32 8C15 8 5 18 5 32c0 15 14 25 25 22 9-2 1-11 9-14 5-2 11 2 16-3 9-11-5-29-23-29z" fill="#FFC95C"/>
+<circle cx="16" cy="28" r="4" fill="#57B9EC"/>
+<circle cx="25" cy="18" r="4" fill="#FF8273"/>
+<circle cx="39" cy="18" r="4" fill="#57B9EC"/>
+<circle cx="49" cy="29" r="4" fill="#FF8273"/>
+<ellipse cx="18" cy="41" rx="4" ry="5" fill="#FFFFFF"/>
+<path d="M50 38l7 5-13 14-5-4z" fill="#57B9EC"/>
+<path d="M39 52c-7-2-11 2-12 9 6-2 11 2 16-5z" fill="#FF8273"/>
+</g>
+</svg>

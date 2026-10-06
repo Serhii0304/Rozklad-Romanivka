@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Історія рідного краю</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M5 36l17-5 19 5 18-5v24l-18 5-19-5-17 5z" fill="#FFC95C"/>
+<path d="M22 33v21M41 38v20M10 46l8-3m28 7 8-2" fill="none"/>
+<path d="M45 18c0 11-13 23-13 23S19 29 19 18a13 13 0 1126 0z" fill="#FF8273"/>
+<path d="M25 18l7-6 7 6v9H25z" fill="#FFFFFF"/>
+<path d="M23 19l9-8 9 8M30 27v-6h4v6" fill="none"/>
+</g>
+</svg>

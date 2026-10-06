@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Правознавство">
+<circle cx="48" cy="45" r="36" fill="#F0EBF7"/>
+<ellipse cx="48" cy="82" rx="33" ry="4" fill="#DFD9EA"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M48 22v53" stroke="#BC9151" stroke-width="6"/>
+<path d="M18 31c11 0 20-3 30-9 10 6 19 9 30 9" stroke="#BC9151" stroke-width="5"/>
+<circle cx="48" cy="17" r="6" fill="#E8BF74"/>
+<path d="m24 33-12 24h24Zm48 0L60 57h24Z" fill="none" stroke="#877297" stroke-width="2.4"/>
+<path d="M10 57h28c-1 14-25 14-28 0Zm48 0h28c-1 14-25 14-28 0Z" fill="#AC94C5"/>
+<path d="M38 74h20l8 7H30Z" fill="#D4AC66"/>
+<path d="M27 84h42" stroke="#9F7A44" stroke-width="4"/>
+<path d="M14 59h20m28 0h20" stroke="#DACEED" stroke-width="2"/>
+</g>
+</svg>

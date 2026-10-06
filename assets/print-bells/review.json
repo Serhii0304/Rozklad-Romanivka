@@ -1,0 +1,83 @@
+{
+  "accepted": true,
+  "sourceGeneratedPath": "exec-ad95d279-ff38-4826-9c1d-9d2ac4b13402.png",
+  "sourceGeneratedBasename": "exec-ad95d279-ff38-4826-9c1d-9d2ac4b13402.png",
+  "sha256": "f0e5947e8184c5fd00221ba376ac0fe27faa12e854701ce3cf05f473c2409080",
+  "width": 1055,
+  "height": 1491,
+  "pixelFormat": "RGB",
+  "cellsChecked": 13,
+  "textChecked": true,
+  "review": "Visually reviewed generated full poster: РОМАНІВСЬКИЙ ЛІЦЕЙ / ім. М. Т. Рильського, title and І семестр 2026–2027 correct; all 7 lesson ranges and all 6 unnumbered break ranges/durations match expected schedule. Both 20-minute breaks have yellow fill. Footer 09:00–09:01 Хвилина мовчання and Київський час correct. No clipping or additional text. Accepted source PNG copied byte-for-byte; no overlay, redraw, crop, or retouch.",
+  "generatedBy": "built-in image_gen",
+  "bellSchedule": [
+    {
+      "lesson": 1,
+      "start": "08:30",
+      "end": "09:15"
+    },
+    {
+      "lesson": 2,
+      "start": "09:25",
+      "end": "10:10"
+    },
+    {
+      "lesson": 3,
+      "start": "10:30",
+      "end": "11:15"
+    },
+    {
+      "lesson": 4,
+      "start": "11:35",
+      "end": "12:20"
+    },
+    {
+      "lesson": 5,
+      "start": "12:30",
+      "end": "13:15"
+    },
+    {
+      "lesson": 6,
+      "start": "13:25",
+      "end": "14:10"
+    },
+    {
+      "lesson": 7,
+      "start": "14:20",
+      "end": "15:05"
+    }
+  ],
+  "breakSchedule": [
+    {
+      "start": "09:15",
+      "end": "09:25",
+      "durationMinutes": 10
+    },
+    {
+      "start": "10:10",
+      "end": "10:30",
+      "durationMinutes": 20
+    },
+    {
+      "start": "11:15",
+      "end": "11:35",
+      "durationMinutes": 20
+    },
+    {
+      "start": "12:20",
+      "end": "12:30",
+      "durationMinutes": 10
+    },
+    {
+      "start": "13:15",
+      "end": "13:25",
+      "durationMinutes": 10
+    },
+    {
+      "start": "14:10",
+      "end": "14:20",
+      "durationMinutes": 10
+    }
+  ],
+  "promptSha256": "0fb36405361dfe7d5557e1c19bedb4ff61d3403b521aa5718765f2f6245518f3"
+}

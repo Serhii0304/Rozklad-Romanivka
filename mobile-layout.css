@@ -1,0 +1,55 @@
+/* Use the available phone width; only wide tables scroll sideways. */
+@media screen and (max-width:900px), screen and (orientation:landscape) and (max-width:1000px) and (max-height:500px) {
+  :root {
+    --phone-safe-left:env(safe-area-inset-left,0px);
+    --phone-safe-right:env(safe-area-inset-right,0px);
+  }
+  html,body { min-width:0;margin:0; }
+  .shell {
+    width:100%;max-width:none;min-width:0;margin-inline:0;
+    padding-inline:var(--phone-safe-left) var(--phone-safe-right);
+  }
+  .header-inner {
+    min-width:0;
+    padding-inline:max(8px,env(safe-area-inset-left,0px)) max(8px,env(safe-area-inset-right,0px));
+  }
+  #schedule.schedule-section {
+    min-width:0;max-width:100%;margin-inline:0;padding-inline:0;border-inline-width:0;
+  }
+  #schedule > :is(.section-heading,.toolbar,.day-toolbar,.table-caption,.schedule-notes,.table-note) {
+    margin-inline:8px;
+  }
+  #schedule-content { width:100%;max-width:100%;min-width:0; }
+  #schedule-content .week-block {
+    width:100%;max-width:100%;min-width:0;margin-inline:0;border-inline-width:0;
+  }
+  #schedule-content .table-wrap,
+  #schedule-content .week-block .table-wrap {
+    width:100%;max-width:100%;min-width:0;margin-inline:0;
+    border-inline-width:0;border-radius:0;box-shadow:none;overflow-x:auto;
+  }
+  #schedule-content .table-scroll-tools {
+    width:100%;max-width:100%;min-width:0;margin-inline:0;
+  }
+  body.is-bells-page #bells { width:100%;max-width:none;min-width:0;margin-inline:0; }
+  body.is-bells-page #bells .bells-layout,
+  body.is-bells-page #bells .bells-list { width:100%;min-width:0;max-width:100%; }
+
+  /* Print images fill the screen; the artwork retains its own printer margins. */
+  body .preview-main,
+  body.bells-print-preview .preview-main {
+    width:100%;max-width:none;min-width:0;margin-inline:0;
+    padding-inline:var(--phone-safe-left) var(--phone-safe-right);
+  }
+  .preview-header {
+    width:100%;max-width:none;min-width:0;flex-wrap:wrap;gap:8px;
+    padding-inline:max(8px,env(safe-area-inset-left,0px)) max(8px,env(safe-area-inset-right,0px));
+  }
+  .preview-main > :is(.preview-heading,.preview-actions,.poster-classes,.print-tip),
+  .week-poster-preview > h2 { margin-inline:8px; }
+  body .preview-main .poster-frame {
+    width:100%;max-width:none;min-width:0;margin-inline:0;
+    border-inline-width:0;border-radius:0;box-shadow:none;
+  }
+  body .preview-main .poster-frame img { width:100%;height:auto;max-width:100%; }
+}

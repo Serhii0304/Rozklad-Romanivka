@@ -1,0 +1,16 @@
+{
+  "id": "class-9",
+  "grade": 9,
+  "method": "builtin-imagegen-full",
+  "operation": "builtin-imagegen-edit",
+  "accepted": true,
+  "cellsChecked": 35,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-1053d09f-90a6-469b-9518-3170440e11a6.png",
+  "notes": "Visually checked all35 cells row by row against canonical Romanivka schedule-config.js. All34 subject cells and Friday7 emdash correct. All7 lesson times correct. School name/subname, semester and centered9КЛАС header correct. Алгебра and Геометрія retained as distinct subjects; icons map to subjects. Source PNG copied unchanged from built-in generation, no overlay or retouch.",
+  "promptPath": "assets/print-generation/class-9-prompt.txt",
+  "imageSha256": "b7dcfe433f0b78f3a09994e72a5201213a7260ceb033f15307758b84b641c052"
+}

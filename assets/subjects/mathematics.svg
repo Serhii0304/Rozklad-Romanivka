@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Математика</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<rect x="13" y="5" width="38" height="54" rx="8" fill="#57B9EC"/>
+<rect x="20" y="12" width="24" height="11" rx="2" fill="#FFC95C"/>
+<path d="M36 16h4m-4 3h4" fill="none"/>
+<rect x="20" y="30" width="10" height="10" rx="2" fill="#FFFFFF"/>
+<rect x="35" y="30" width="10" height="10" rx="2" fill="#FFFFFF"/>
+<rect x="20" y="45" width="10" height="9" rx="2" fill="#FFFFFF"/>
+<rect x="35" y="45" width="10" height="9" rx="2" fill="#FFC95C"/>
+<path d="M23 35h4m-2-2v4m13-2h4M23 48l4 4m0-4-4 4m15-3h4m-4 3h4" fill="none" stroke-width="1.8"/>
+</g>
+</svg>

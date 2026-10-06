@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Історія">
+<circle cx="48" cy="46" r="36" fill="#F3EAF5"/>
+<ellipse cx="48" cy="82" rx="29" ry="4" fill="#E4D8E8"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M27 20c0 17 6 21 16 28-10 7-16 11-16 28h42c0-17-6-21-16-28 10-7 16-11 16-28Z" fill="#F7F8F4"/>
+<path d="M31 28h34c-1 8-7 12-17 17-10-5-16-9-17-17Z" fill="#F6BD5F" stroke="none"/>
+<path d="M31 73c4-10 12-12 17-17 5 5 13 7 17 17Z" fill="#E8A643" stroke="none"/>
+<path d="M48 46v9" stroke="#E8A643" stroke-width="4"/>
+<rect x="21" y="13" width="54" height="9" rx="4" fill="#9274AA"/>
+<rect x="21" y="75" width="54" height="9" rx="4" fill="#9274AA"/>
+<path d="M23 26v44m50-44v44" stroke="#725888" stroke-width="4"/>
+<path d="M35 34c1 3 3 5 5 6" stroke="#FFF9DD"/>
+</g>
+<path d="m13 42 2-5 2 5 5 2-5 2-2 5-2-5-5-2z" fill="#E5AF56"/>
+</svg>

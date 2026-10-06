@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Захист України">
+<circle cx="48" cy="45" r="36" fill="#EDF3E6"/>
+<ellipse cx="48" cy="83" rx="28" ry="4" fill="#DEE5D4"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M19 21c11 0 22-4 29-10 7 6 18 10 29 10v26c0 18-16 31-29 37-13-6-29-19-29-37Z" fill="#3483AC"/>
+<path d="M24 49h48c-1 14-12 24-24 30-12-6-23-16-24-30Z" fill="#F4CB62" stroke="none"/>
+<path d="M25 27c10-1 18-4 23-8 5 4 13 7 23 8v18" stroke="#90C4DC" stroke-width="2"/>
+<path d="M48 30v32m-12-29 1 17c1 5 5 7 11 7 6 0 10-2 11-7l1-17-7 10 6 4m-23 0 7-4-7-10m6 24 6 9 6-9" stroke="#FFF5CB" stroke-width="3.7"/>
+</g>
+<path d="M13 66c-9-5-8-11-6-13 7 1 10 6 6 13Zm4 10c-10-1-13-7-11-10 7-2 11 2 11 10Zm66-10c9-5 8-11 6-13-7 1-10 6-6 13Zm-4 10c10-1 13-7 11-10-7-2-11 2-11 10Z" fill="#87AA6B"/>
+</svg>

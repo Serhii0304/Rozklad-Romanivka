@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Музичне мистецтво</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M31 10l23-5v29l-6 2V15l-11 3v23l-6 2z" fill="#57B9EC"/>
+<ellipse cx="27" cy="42" rx="8" ry="5" transform="rotate(-20 27 42)" fill="#57B9EC"/>
+<ellipse cx="45" cy="35" rx="8" ry="5" transform="rotate(-20 45 35)" fill="#57B9EC"/>
+<rect x="7" y="45" width="46" height="14" rx="3" fill="#FFC95C"/>
+<path d="M16 46v12m9-12v12m9-12v12m9-12v12" fill="none"/>
+<path d="M13 46h5v7h-5zm18 0h5v7h-5zm9 0h5v7h-5z" fill="#17324D" stroke-width="1"/>
+<path d="M9 25l3-5 3 5 5 3-5 2-3 6-3-6-5-2z" fill="#FF8273"/>
+</g>
+</svg>

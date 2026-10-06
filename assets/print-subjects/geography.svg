@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" role="img" aria-label="Географія">
+<circle cx="48" cy="46" r="36" fill="#E5F1F8"/>
+<ellipse cx="50" cy="83" rx="27" ry="4" fill="#D2E3EC"/>
+<g stroke="#18374F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M70 16c19 18 13 49-12 59M51 71v9m-16 3h34" stroke="#BE9750" stroke-width="5"/>
+<path d="m25 12 48 55" stroke="#2B5770" stroke-width="4"/>
+<circle cx="47" cy="42" r="29" fill="#6FBFC9"/>
+<path d="m29 21 9-4 6 7-6 5 4 6-6 6-10-2-5-9m47-9-11 4-4 10 8 5 2 10 10-1m-38-4 10-3 9 7-3 9-8 10-6-8Z" fill="#B8D394" stroke="none"/>
+<path d="M20 42h54M47 14c-14 13-14 42 0 57m0-57c14 13 14 42 0 57" stroke="#398FA3" stroke-width="1.8" opacity=".65"/>
+<path d="M29 23a25 25 0 0 1 17-6" stroke="#D9F5F3" stroke-width="3"/>
+</g>
+<path d="m13 62 3 5-3 5-3-5Z" fill="#E7B35E"/>
+</svg>

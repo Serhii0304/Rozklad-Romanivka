@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Підприємництво і фінансова грамотність</title>
+<g stroke="#17324D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M6 55h53M11 53V40h10v13M27 53V29h10v24M43 53V17h10v36" fill="#57B9EC"/>
+<path d="M10 32l14-13 13 3L54 6m-12 0h12v12" fill="none" stroke-width="3" stroke="#FF8273"/>
+<circle cx="15" cy="17" r="10" fill="#FFC95C"/>
+<path d="M14 11v12m5-10h-5c-5 0-5 7 0 7h5M10 16h9" fill="none" stroke-width="2"/>
+</g>
+</svg>

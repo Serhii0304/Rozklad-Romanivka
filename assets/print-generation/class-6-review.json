@@ -1,0 +1,15 @@
+{
+  "grade": 6,
+  "method": "builtin-imagegen-full",
+  "accepted": true,
+  "cellsChecked": 35,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-d962fe53-4367-4c39-9379-bbf096d4dcda.png",
+  "reviewedDate": "2026-10-06",
+  "reviewNotes": "All35 cells visually checked row by row against extracted source: correct subject/day/lesson placement, all8 empty cells, all7 bell times08:30 through15:05. Centered Romanivka/Rylskyi title; source text preserved with approved abbreviation expansion. Original output copied unchanged.",
+  "promptPath": "assets/print-generation/class-6-prompt.txt",
+  "imageSha256": "a8b9eec3538b37a3c5a5771e66a0eeba505824c62605678c92a6eb07cd6e2405"
+}

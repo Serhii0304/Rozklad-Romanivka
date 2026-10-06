@@ -1,0 +1,16 @@
+{
+  "id": "class-11",
+  "grade": 11,
+  "method": "builtin-imagegen-full",
+  "operation": "builtin-imagegen-edit",
+  "accepted": true,
+  "cellsChecked": 35,
+  "titlesCentered": true,
+  "spellingChecked": true,
+  "timesChecked": true,
+  "remainingIssues": [],
+  "sourceGeneratedPath": "exec-f1edf013-6f99-4fd1-b531-37fc9b70822a.png",
+  "notes": "Visually checked all35 cells row by row against canonical Romanivka schedule-config.js. All32 subject cells correct. Monday7, Wednesday7, Friday7 empty emdashes correct. Both Wednesday5 and Wednesday6 Захист України retained; Friday6 is exactly Астрономія. All7 lesson times correct. School name/subname, semester and centered11КЛАС header correct. PNG copied unchanged from built-in generation, no overlay or retouch.",
+  "promptPath": "assets/print-generation/class-11-prompt.txt",
+  "imageSha256": "6be4edc976de42db9d414765306a9b59f10665fb5cf24ddd79215d4414b18e9a"
+}

@@ -1,0 +1,17 @@
+Use case: infographic-diagram / text-localization. Create a complete Ukrainian school timetable poster as one fully generated image including every title, table cell text and subject illustration. Attached poster is the STYLE reference: exactly match its elegant academic navy blue, ivory, restrained gold borders/corner flourishes, centered bold serif typography, subtle alternating row shades and dense page-filling grid. Replace ALL old school names, times and subjects with the supplied new Romanivka data. Landscape A4 proportion, native 1492×1054 or larger. No screenshot/mockup, no perspective, no white outer mat, no watermark.
+Top centered on full table width, compact 4 lines in the existing title band:
+РОМАНІВСЬКИЙ ЛІЦЕЙ
+ім. М. Т. Рильського
+РОЗКЛАД УРОКІВ — СЕРЕДА
+5–11 класи · І семестр · 2026–2027 навчальний рік
+The table takes almost all remaining page, exactly8columns including lesson/time and7equal classcolumns, exactly7lessonrows. Columnheads: Урок / час | 5 клас | 6 клас | 7 клас | 8 клас | 9 клас | 10 клас | 11 клас.
+Every cell centered, subject in bold navy text ABOVE one small refined illustrative icon. Icons subordinate to labels, around30–40%ofcellheight, never huge. Each subject has a distinct icon consistent throughout allposters: Ukrainian language openbook+pen; Ukrainian literature book+quill; English BigBen; math calculator; algebra x²; geometry compass+triangle; geography globe; physics atom; chemistry flasks; biology microscope+leaf; technology gears+set-square; history hourglass; informatics laptop; foreignliterature books+smallglobe; physicaleducation shoe+ball; nature sprout; arts palette; law scales; financialliteracy coins; civic education people; wellbeing shield+heart; defence Ukrainiantrident shield; astronomy telescope. Empty cells contain only—, noicon. Do not reuse icon for another subject.
+Exact data by row, columnsaftertime are always5,6,7,8,9,10,11. Do not print the separators themselves. NEVER omit/swap/reorder or invent a subject. All strings Ukrainian verbatim, natural2or3line wrapping permitted, do not abbreviate:
+1 | 08:30–09:15 | Математика | Українська мова | Фізика | Технології | Фізична культура | Інформатика | Українська мова
+2 | 09:25–10:10 | Інформатика | Українська література | Українська мова | Географія | Геометрія | Фізика | Фізична культура
+3 | 10:30–11:15 | Українська мова | Інформатика | Фізична культура | Геометрія | Українська мова | Захист України | Алгебра
+4 | 11:35–12:20 | Фізична культура | Зарубіжна література | Здоров’я, безпека та добробут | Українська мова | Алгебра | Захист України | Інформатика
+5 | 12:30–13:15 | Українська мова | Здоров’я, безпека та добробут | Інформатика | Фізична культура | Мистецтво | Українська література | Захист України
+6 | 13:25–14:10 | — | — | Українська література | Зарубіжна література | Інформатика | Географія | Захист України
+7 | 14:20–15:05 | — | — | Зарубіжна література | Інформатика (1 група) | Фізика | Фізична культура | —
+Times belong ONLY in left lesson/time column; each appears once under its large lessonnumber. Groupqualifiers belong under Informatics if present. FulltextforЗдоров’я, безпека та добробут may wrap3lines withsmallicon. Preserve every row/column boundary and complete decorative border uncropped. Keep professional readable typography, exact Ukrainian spelling, seven rows, all49cells. Render the COMPLETE finished timetable poster.

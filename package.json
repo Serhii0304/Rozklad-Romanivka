@@ -1,0 +1,19 @@
+{
+  "name": "romanivka-schedule",
+  "version": "2026.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate:posters": "node scripts/validate-generated-posters.mjs",
+    "import:posters": "node scripts/import-generated-posters.mjs",
+    "import:week-posters": "node scripts/import-week-posters.mjs",
+    "validate:week-posters": "node scripts/validate-week-posters.mjs",
+    "validate:pdfs": "node scripts/validate-print-pdfs.mjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}

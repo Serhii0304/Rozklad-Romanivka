@@ -1,0 +1,8 @@
+.bells-print-preview .preview-main{max-width:980px}
+.bells-print-preview .preview-actions{margin:18px 0 24px}
+.bells-print-preview .poster-frame{max-width:740px;margin:0 auto}
+@media print{
+ @page{size:A4 portrait;margin:5mm}
+ .bells-print-preview .poster-print-area{width:200mm;height:287mm}
+ .bells-print-preview .poster-print-area img{width:auto;height:287mm;max-width:200mm;max-height:287mm;object-fit:contain}
+}

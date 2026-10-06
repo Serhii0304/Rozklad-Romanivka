@@ -1,0 +1,27 @@
+// Original pictograms for the printable class posters. Each subject has its own drawing.
+export const printSubjectIcons = Object.freeze({
+  "Інформатика": "assets/print-subjects/informatics.svg",
+  "Історія": "assets/print-subjects/history.svg",
+  "Історія України": "assets/print-subjects/ukrainian-history.svg",
+  "Англійська мова": "assets/print-subjects/english.svg",
+  "Біологія": "assets/print-subjects/biology.svg",
+  "Всесвітня історія": "assets/print-subjects/world-history.svg",
+  "Географія": "assets/print-subjects/geography.svg",
+  "Громадянська освіта": "assets/print-subjects/civic-education.svg",
+  "Зарубіжна література": "assets/print-subjects/foreign-literature.svg",
+  "Захист України": "assets/print-subjects/defence.svg",
+  "Здоров’я, безпека та добробут": "assets/print-subjects/health.svg",
+  "Математика": "assets/print-subjects/mathematics.svg",
+  "Мистецтво": "assets/print-subjects/arts.svg",
+  "Німецька мова": "assets/print-subjects/german.svg",
+  "Образотворче мистецтво": "assets/print-subjects/visual-arts.svg",
+  "Правознавство": "assets/print-subjects/law.svg",
+  "Пізнаємо природу": "assets/print-subjects/nature.svg",
+  "Технології": "assets/print-subjects/technology.svg",
+  "Українська література": "assets/print-subjects/ukrainian-literature.svg",
+  "Українська мова": "assets/print-subjects/ukrainian.svg",
+  "Фізика": "assets/print-subjects/physics.svg",
+  "Фізика (астрономія)": "assets/print-subjects/astronomy.svg",
+  "Фізична культура": "assets/print-subjects/physical-education.svg",
+  "Хімія": "assets/print-subjects/chemistry.svg"
+});
