@@ -22,11 +22,20 @@
     });
     document.dispatchEvent(new CustomEvent('themechange', { detail: theme }));
   }
+  // Desktops with full effects cross-fade the theme; phones switch instantly.
+  function switchTheme(theme) {
+    if (root.dataset.theme !== theme && root.dataset.effects === 'full' && document.startViewTransition && !document.hidden) {
+      // A skipped transition still applies the theme; only the animation is dropped.
+      document.startViewTransition(() => applyTheme(theme)).ready.catch(() => {});
+    } else {
+      applyTheme(theme);
+    }
+  }
   applyTheme(saved || (system.matches ? 'dark' : 'light'), false);
   document.addEventListener('DOMContentLoaded', () => {
     applyTheme(root.dataset.theme, false);
     document.querySelectorAll('[data-set-theme]').forEach(button => {
-      button.addEventListener('click', () => applyTheme(button.dataset.setTheme));
+      button.addEventListener('click', () => switchTheme(button.dataset.setTheme));
     });
   });
   system.addEventListener('change', event => { if (!explicit) applyTheme(event.matches ? 'dark' : 'light', false); });

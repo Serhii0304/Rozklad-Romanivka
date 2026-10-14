@@ -1,4 +1,4 @@
-import {subjectCellMarkup} from './lesson-content.mjs';
+import {subjectCellMarkup} from './lesson-content.mjs?v=20261014-compact';
 import {classIndex} from './time-core.mjs';
 const escapeHtml=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function classWeekMarkup(config,grade,today=-1){

@@ -1,7 +1,7 @@
 import {bellsMarkup,updateBellHighlights} from './bells-view.mjs?v=20261006-romanivka';
 import {bellsPoster} from './bells-poster.mjs';
-import {subjectCellMarkup,subjectsInLesson} from './lesson-content.mjs';
-import {enhanceTableNavigation} from './table-navigation.mjs';
+import {subjectCellMarkup,subjectsInLesson} from './lesson-content.mjs?v=20261014-compact';
+import {enhanceTableNavigation} from './table-navigation.mjs?v=20261014-compact';
 import {posterForClass} from './print-posters.mjs?v=20261006-romanivka';
 import {weekPosterForDay,wholeWeekPosters} from './week-posters.mjs?v=20261006-romanivka';
 import {pdfForPrintRequest,openPrintPdf} from './print-files.mjs?v=20261006-romanivka';
@@ -10,12 +10,13 @@ import {displaySchoolState} from './live-state.mjs';
 import {classIndex,classGrade,classRangeLabel} from './time-core.mjs';
 import {printPagesMarkup,fitPrintPages,settlePrintAssets} from './print-layout.mjs?v=20261006-romanivka';
 import {subjectIconMarkup} from './subject-icons.mjs';
-import {classWeekMarkup} from './schedule-view.mjs';
+import {classWeekMarkup} from './schedule-view.mjs?v=20261014-compact';
 import './effects.mjs';
-import {KyivClock} from './kyiv-clock.mjs';
+import {KyivClock} from './kyiv-clock.mjs?v=20261014-compact';
 import {kyivParts,silenceWindow,schoolState,durationLabel} from './time-core.mjs';
 import {SilencePlayer} from './minute-of-silence.mjs';
 import {SchoolBellPlayer} from './school-bell.mjs';
+import {createDayDock} from './day-dock.mjs?v=20261014-compact';
 const C=window.SchoolScheduleConfig,D=C.dayOrder,B=C.bellSchedule;
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -33,6 +34,7 @@ const subjects=[...new Set(C.scheduleRows.flatMap(r=>r.classes).flatMap(subjects
 $('#subject-filter').innerHTML='<option value="">Усі предмети</option>'+subjects.map(s=>'<option>'+esc(s)+'</option>').join('');
 const allButton=$('#class-tabs [data-class="all"]').outerHTML;
 $('#class-tabs').innerHTML=allButton+C.classes.map((label,i)=>'<button type="button" data-class="'+esc(classGrade(C,i))+'" aria-label="'+esc(label)+'" aria-pressed="false"><span class="class-card-top"><span class="class-card-number" aria-hidden="true">'+esc(classGrade(C,i))+'</span><span class="class-card-check" aria-hidden="true"></span></span><span class="class-card-label">клас</span></button>').join('');
+const dayDock=createDayDock(D,{anchor:$('.day-toolbar'),content:$('#schedule-content')});
 function color(s){if(/мова|література/.test(s))return '#436dde';if(/Математика|Алгебра|Геометрія|Інформатика|Фізика/.test(s))return '#8163bd';if(/Біологія|Географія|Природознавство|Хімія/.test(s))return '#3e927d';if(/мистецтво|Мистецтво|Технології/.test(s))return '#c48733';if(/Фізична|здоров/.test(s))return '#47889b';return '#b96b72';}
 function subjectCell(s){return subjectCellMarkup(C,s);}
 function table(index,allClasses=false){const columns=allClasses||grade==='all'?C.classes.map((_,i)=>i):[classIndex(C,grade)];const rows=C.scheduleRows.filter(r=>r.day===D[index].label);
@@ -55,15 +57,11 @@ function compactGeneralControls(isGeneral){
  const filter=$('#subject-filter').parentElement,todayButton=$('#today-button');
  document.body.classList.toggle('is-general-page',isGeneral);
  toolbar.hidden=isGeneral;
- const filterHost=isGeneral?days:toolbar;
- if(filter.parentElement!==filterHost){
-  if(isGeneral)days.insertBefore(filter,$('.view-tabs'));
-  else toolbar.append(filter);
- }
- const todayHost=isGeneral?days:$('.table-caption');
- if(todayButton.parentElement!==todayHost)todayHost.append(todayButton);
+ // Filter, view switch and "today" share one row on every timetable; the caption row stays for screen readers.
+ if(filter.parentElement!==days)days.insertBefore(filter,$('.view-tabs'));
+ if(todayButton.parentElement!==days)days.append(todayButton);
 }
-function applyPageLayout(){const isClass=grade!=='all'&&section==='schedule';compactGeneralControls(grade==='all'&&section==='schedule');const poster=posterForClass(C,grade);$('#poster-link').href=poster?.pagePath||'week-print.html';$('#poster-link').textContent=isClass?'Зображення для друку':'Зображення тижня';document.body.classList.toggle('is-class-page',isClass);document.body.classList.toggle('is-bells-page',section==='bells');$('#page-title').innerHTML=isClass?'Розклад уроків <span>'+grade+' клас</span>':section==='bells'?'Розклад <span>дзвінків</span>':'Розклад уроків<br><span>5–11 класи</span>';$('#page-description').textContent=C.school.name;$('#class-back').hidden=!isClass;$('#schedule-title').textContent=isClass?(view==='week'?'Навчальний тиждень · '+grade+' клас':'Розклад дня · '+grade+' клас'):'Загальний розклад уроків';$('#day-tabs').hidden=isClass&&view==='week';$('#table-legend').textContent=isClass&&view==='week'?'Синій рядок — поточний урок; найяскравіша клітинка — сьогодні. Натисніть на предмет, щоб виділити його за тиждень.':'Синій рядок — урок, який триває зараз.';}
+function applyPageLayout(){const isClass=grade!=='all'&&section==='schedule';compactGeneralControls(grade==='all'&&section==='schedule');dayDock.update({active:section==='schedule'&&grade==='all'&&view==='week',today});const poster=posterForClass(C,grade);$('#poster-link').href=poster?.pagePath||'week-print.html';$('#poster-link').textContent=isClass?'Зображення для друку':'Зображення тижня';document.body.classList.toggle('is-class-page',isClass);document.body.classList.toggle('is-bells-page',section==='bells');$('#page-title').innerHTML=isClass?'Розклад уроків <span>'+grade+' клас</span>':section==='bells'?'Розклад <span>дзвінків</span>':'Розклад уроків<br><span>5–11 класи</span>';$('#page-description').textContent=C.school.name;$('#class-back').hidden=!isClass;$('#schedule-title').textContent=isClass?(view==='week'?'Навчальний тиждень · '+grade+' клас':'Розклад дня · '+grade+' клас'):'Загальний розклад уроків';$('#day-tabs').hidden=isClass&&view==='week';$('#table-legend').textContent=isClass&&view==='week'?'Синій рядок — поточний урок; найяскравіша клітинка — сьогодні. Натисніть на предмет, щоб виділити його за тиждень.':'Синій рядок — урок, який триває зараз.';}
 function navigatePage(nextGrade='all',nextSection='schedule'){grade=nextGrade;section=nextSection;view='week';day=readViewState(new URLSearchParams(),clock.now(),C).day;autoDay=true;subject='';dayFilters={};const filename=section==='bells'?'Розклад дзвінків.html':grade==='all'?'index.html':'class.html';const url=new URL(filename,location.href);if(grade!=='all')url.searchParams.set('class',grade+' клас');url.searchParams.set('view','week');url.hash=section;history.pushState(null,'',url);render();if(section==='schedule'&&today>=0&&today<D.length)scrollToLiveLesson(true);else window.scrollTo({top:0,behavior:'instant'});}
 function syncUrl(){const query=new URLSearchParams();if(grade!=='all')query.set('class',grade+' клас');query.set('view',view);if(!autoDay)query.set('day',D[day].id);const str=query.toString();history.replaceState(null,'',location.pathname+(str?'?'+str:'')+'#'+section);document.title=(section==='bells'?'Дзвінки':grade==='all'?'Розклад 5–11 класів':grade+' клас — розклад')+' · Романівка 2026–2027';}
 function renderSection(){section=location.hash==='#bells'||decodeURIComponent(location.pathname).endsWith('Розклад дзвінків.html')?'bells':'schedule';applyPageLayout();$('#schedule').hidden=section!=='schedule';$('#bells').hidden=section!=='bells';$$('[data-nav]').forEach(a=>{if(a.dataset.nav===section)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});syncUrl();}

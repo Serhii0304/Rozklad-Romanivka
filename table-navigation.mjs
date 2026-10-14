@@ -12,11 +12,16 @@ export function enhanceTableNavigation(container) {
 
   function update() {
     frame = 0;
-    for (const {wrap, tools, leftButton, rightButton} of entries) {
+    for (const {wrap, holder, tools, leftButton, rightButton} of entries) {
       const maximum = Math.max(0, wrap.scrollWidth - wrap.clientWidth);
       tools.hidden = maximum <= 1;
       leftButton.disabled = wrap.scrollLeft <= 1;
       rightButton.disabled = wrap.scrollLeft >= maximum - 1;
+      // Edge shades hint at hidden columns; the left one starts after the sticky lesson rail.
+      holder.classList.toggle('can-scroll-left', !leftButton.disabled);
+      holder.classList.toggle('can-scroll-right', !rightButton.disabled);
+      const rail = wrap.querySelector('thead th:first-child');
+      holder.style.setProperty('--table-rail', (rail?.offsetWidth || 0) + 'px');
     }
   }
 
@@ -88,9 +93,13 @@ export function enhanceTableNavigation(container) {
 
     const left = makeButton(-1, '←', 'Прокрутити таблицю ліворуч');
     const right = makeButton(1, '→', 'Прокрутити таблицю праворуч');
-    wrap.before(tools);
+    const holder = document.createElement('div');
+    holder.className = 'table-frame';
+    wrap.before(holder);
+    holder.append(wrap);
+    holder.before(tools);
     wrap.addEventListener('scroll', queueUpdate, {passive: true});
-    entries.push({wrap, tools, leftButton: left.button, rightButton: right.button, left, right});
+    entries.push({wrap, holder, tools, leftButton: left.button, rightButton: right.button, left, right});
   }
 
   const observer = view.ResizeObserver ? new view.ResizeObserver(queueUpdate) : null;
@@ -108,8 +117,9 @@ export function enhanceTableNavigation(container) {
     observer?.disconnect();
     view.removeEventListener('resize', queueUpdate);
     if (frame) view.cancelAnimationFrame(frame);
-    for (const {wrap, tools, left, right} of entries) {
+    for (const {wrap, holder, tools, left, right} of entries) {
       wrap.removeEventListener('scroll', queueUpdate);
+      holder.replaceWith(wrap);
       left.button.removeEventListener('click', left.onClick);
       right.button.removeEventListener('click', right.onClick);
       tools.remove();

@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<script src="theme-init.js"></script>
+<script src="theme-init.js?v=20261014-compact"></script>
 <link rel="stylesheet" href="site.css">
 <link rel="stylesheet" href="enhancements.css">
 <link rel="stylesheet" href="highlights.css">
@@ -21,9 +21,10 @@
 <link rel="stylesheet" href="weekday-style.css">
 <link rel="stylesheet" href="bells-style.css?v=20261006-romanivka">
 <script src="schedule-config.js?v=20261006-romanivka"></script>
-<script type="module" src="app.mjs?v=20261006-compact-controls"></script>
+<script type="module" src="app.mjs?v=20261014-compact"></script>
 <link rel="stylesheet" href="mobile-layout.css?v=20261006-romanivka">
 <link rel="stylesheet" href="qr-nav.css?v=20261006-romanivka">
+<link rel="stylesheet" href="layout-compact.css?v=20261014-compact">
 </head>
 <body>
 <a class="skip" href="#schedule">Перейти до розкладу</a>
@@ -60,7 +61,7 @@
 <label class="subject-filter"><span class="sr-only">Знайти предмет</span><select id="subject-filter"><option value="">Усі предмети</option></select></label>
 </div>
 <div class="day-toolbar"><div id="day-tabs" class="day-tabs" role="group" aria-label="Оберіть день"></div><div class="view-tabs" role="group" aria-label="Період розкладу"><button data-view="day" aria-pressed="true">День</button><button data-view="week" aria-pressed="false">Тиждень</button></div></div>
-<div class="table-caption"><span id="schedule-caption">Розклад на день</span><button type="button" id="today-button" class="text-button">До сьогодні ↗</button></div>
+<div class="table-caption"><span id="schedule-caption">Розклад на день</span><button type="button" id="today-button" class="text-button" aria-label="Перейти до сьогоднішнього дня"><span class="today-long">До сьогодні</span><span class="today-short">Сьогодні</span> <span aria-hidden="true">↗</span></button></div>
 <div id="schedule-content"></div>
 <details class="schedule-notes"><summary>Позначення в розкладі</summary><p>Позначення «1 група» та «2 група» збережені зі шкільного розкладу. Предмети через «/» показано разом, як у шкільному розкладі. Кожен предмет можна виділити окремо. Порожня клітинка означає, що уроку немає.</p></details>
 <p class="table-note"><span class="legend-dot"></span> <span id="table-legend">Синій рядок — урок, який триває зараз.</span> <span class="mobile-hint">Таблицю можна гортати вбік.</span><span id="filter-result" role="status"></span></p>

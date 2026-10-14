@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {subjectCellMarkup,subjectsInLesson} from '../lesson-content.mjs';
+import {subjectCellMarkup,subjectsInLesson,shortSubjectName} from '../lesson-content.mjs';
 
 test('A repeated subject in one lesson renders one name and one filter target',()=>{
   const value='Українська мова / українська   мова / Українська мова';
@@ -31,4 +31,15 @@ test('Romanivka group labels retain their source wording with one canonical info
   assert.ok(html.includes('(1 група) · (2 група)'));
   assert.deepEqual(subjectsInLesson('Інформатика (1 група)'),['Інформатика']);
   assert.deepEqual(subjectsInLesson('Інформатика (2 група)'),['Інформатика']);
+});
+
+test('Phone labels shorten long subjects while keeping the full name for filters and screen readers',()=>{
+  const html=subjectCellMarkup({},'Українська література');
+  assert.equal(shortSubjectName('Здоров’я, безпека та добробут'),'ЗБД');
+  assert.equal(shortSubjectName('Фізика'),'');
+  assert.ok(html.includes('data-subject="Українська література"'));
+  assert.ok(html.includes('<span class="subject-name-full">Українська література</span>'));
+  assert.ok(html.includes('<span class="subject-name-short" aria-hidden="true">Укр. літ.</span>'));
+  assert.equal((html.match(/class="subject-name"/g)||[]).length,1);
+  assert.ok(!subjectCellMarkup({},'Фізика').includes('subject-name-short'));
 });
