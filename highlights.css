@@ -70,10 +70,10 @@
 }
 
 /* One connected live ribbon; table geometry and subject selection stay intact. */
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current{
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current{
   background:var(--lesson-ribbon);background-size:180% 100%;
 }
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current>td{
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current>td{
   background:transparent!important;border-color:#8bd9ef70;
   box-shadow:inset 0 2px 0 var(--lesson-edge),inset 0 -2px 0 var(--lesson-edge);
 }
@@ -81,13 +81,16 @@
   background:#173b88!important;color:#fff;border-color:#8bd9ef70;
   box-shadow:inset 4px 0 0 #a8f4ed,inset 0 2px 0 var(--lesson-edge),inset 0 -2px 0 var(--lesson-edge);
 }
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match){
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current .subject:not(.is-match),
+:is(#schedule-content,#print-stage) .week-matrix .is-current-cell .subject:not(.is-match){
   color:#fff;border-color:#e1faff35;background:#ffffff09;
 }
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match) .subject-name{
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current .subject:not(.is-match) .subject-name,
+:is(#schedule-content,#print-stage) .week-matrix .is-current-cell .subject:not(.is-match) .subject-name{
   color:#fff;background:transparent;border-color:transparent;box-shadow:none;font-weight:800;
 }
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current .subject:not(.is-match):hover{
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current .subject:not(.is-match):hover,
+:is(#schedule-content,#print-stage) .week-matrix .is-current-cell .subject:not(.is-match):hover{
   background:#ffffff1c;border-color:#bdedff9c;
 }
 :is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-number{
@@ -95,7 +98,7 @@
   box-shadow:0 0 0 3px #80d8f93d,0 0 17px #7de4ff47;
 }
 :is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-time{color:#e1f4ff;}
-:is(#schedule-content,#print-stage) .schedule-table tr.is-current .empty{color:#e8f6ff;background:#10336d;border:1px solid #9de0f777;}
+:is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current .empty,:is(#schedule-content,#print-stage) .week-matrix .is-current-cell .empty{color:#e8f6ff;background:#10336d;border:1px solid #9de0f777;}
 :is(#schedule-content,#print-stage) .schedule-table tr.is-current .row-state{
   position:relative;isolation:isolate;overflow:hidden;display:block;margin-top:7px;
   padding:5px 3px;color:#dcfffa;background:#0d275c;border:1px solid #81dfdb;
@@ -113,12 +116,12 @@
   transform:translateX(-120%);
 }
 
-/* The intersection of today's column and the live row gets a second frame. */
-:is(#schedule-content,#print-stage) .week-matrix tr.is-current>.is-current-cell{
-  background:#a9f8ff1c!important;
+/* In the week matrix only today's cell is live; it carries the ribbon and a second frame. */
+:is(#schedule-content,#print-stage) .week-matrix .is-current-cell{
+  background:linear-gradient(#a9f8ff1c,#a9f8ff1c),var(--lesson-ribbon)!important;border-color:#8bd9ef70;
   box-shadow:inset 0 0 0 3px #b8fff1,inset 0 0 25px #73e0ed30;
 }
-:is(#schedule-content,#print-stage) .week-matrix tr.is-current>.is-current-cell .subject:not(.is-match){
+:is(#schedule-content,#print-stage) .week-matrix .is-current-cell .subject:not(.is-match){
   border-color:#c5fff191;background:#0a315942;
 }
 :is(#schedule-content,#print-stage) .schedule-table tr.is-upcoming:not(.is-current)>th{
@@ -138,7 +141,7 @@
   :is(#schedule-content,#print-stage) .schedule-table .subject.is-match .subject-icon{
     animation:icon-celebrate .48s cubic-bezier(.2,.8,.2,1) both;
   }
-  :is(#schedule-content,#print-stage) .schedule-table tr.is-current{
+  :is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current{
     animation:lesson-aurora 12s ease-in-out infinite;
   }
   :is(#schedule-content,#print-stage) .schedule-table tr.is-current .lesson-number{
@@ -190,5 +193,5 @@
 @media(forced-colors:active){
   :is(#schedule-content,#print-stage) .schedule-table .subject.is-match{border:2px solid Highlight;outline:2px solid CanvasText;outline-offset:2px;}
   :is(#schedule-content,#print-stage) .schedule-table .subject.is-match::after{display:none;}
-  :is(#schedule-content,#print-stage) .schedule-table tr.is-current>*{border-top:3px solid Highlight;border-bottom:3px solid Highlight;}
+  :is(#schedule-content,#print-stage) .schedule-table:not(.week-matrix) tr.is-current>*,:is(#schedule-content,#print-stage) .week-matrix tr.is-current>th,:is(#schedule-content,#print-stage) .week-matrix .is-current-cell{border-top:3px solid Highlight;border-bottom:3px solid Highlight;}
 }

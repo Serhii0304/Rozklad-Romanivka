@@ -27,3 +27,13 @@ test('Clock keeps device time when no online source answers',()=>withFetch(()=>{
   assert.equal(clock.source,'Час пристрою');
   assert.ok(Math.abs(clock.now()-Date.now())<1000);
 }));
+
+test('A whole-second server Date within one second of the clock does not shift it, so playing audio is not restarted',()=>withFetch(url=>{
+  if(url.includes('worldtimeapi'))throw new TypeError('connection reset');
+  return {ok:true,headers:new Map([['date',new Date(Math.floor(Date.now()/1000)*1000).toUTCString()]])};
+},async()=>{
+  const clock=new KyivClock(),before={epoch:clock.baseEpoch,mono:clock.baseMono};
+  await clock.sync();
+  assert.equal(clock.source,'Звірено онлайн');
+  assert.deepEqual({epoch:clock.baseEpoch,mono:clock.baseMono},before);
+}));

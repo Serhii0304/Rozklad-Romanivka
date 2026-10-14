@@ -200,8 +200,8 @@ h1 span { background: linear-gradient(110deg,#2b61d8,#6943c9); color: #3155c1; b
 .schedule-table td[data-grade="9"] { background:var(--class-9); }
 .lesson-number { background:var(--white);border-color:var(--line);color:var(--ink); }
 .lesson-time { color:var(--muted); }
-.schedule-table .is-current>td { background:var(--live-cell)!important;box-shadow:inset 0 1px 0 #79a5f2,inset 0 -1px 0 #79a5f2; }
-.schedule-table .is-current .subject { color:var(--live-ink); }
+.schedule-table:not(.week-matrix) .is-current>td,.week-matrix .is-current-cell { background:var(--live-cell)!important;box-shadow:inset 0 1px 0 #79a5f2,inset 0 -1px 0 #79a5f2; }
+.schedule-table:not(.week-matrix) .is-current .subject,.week-matrix .is-current-cell .subject { color:var(--live-ink); }
 .schedule-table .subject { transition:color .15s,transform .15s; }
 .schedule-table .subject:hover { transform:translateX(3px);color:var(--blue-dark); }
 .schedule-table .is-current>th { background:#315dd0!important; }
@@ -221,8 +221,8 @@ h1 span { background: linear-gradient(110deg,#2b61d8,#6943c9); color: #3155c1; b
 [data-theme="dark"] .subject::before { filter:brightness(1.55); }
 [data-theme="dark"] .schedule-table .subject.is-dim { color:#a5b2ca; }
 [data-theme="dark"] .schedule-table .subject.is-match { background:#665016;outline-color:#665016;color:#fff2c8; }
-[data-theme="dark"] .schedule-table .is-current .subject { color:#fff; }
-[data-theme="dark"] .schedule-table .is-current .subject.is-match { color:#fff2c8; }
+[data-theme="dark"] .schedule-table:not(.week-matrix) .is-current .subject,[data-theme="dark"] .week-matrix .is-current-cell .subject { color:#fff; }
+[data-theme="dark"] .schedule-table:not(.week-matrix) .is-current .subject.is-match,[data-theme="dark"] .week-matrix .is-current-cell .subject.is-match { color:#fff2c8; }
 [data-theme="dark"] .schedule-table .empty { background:#ffffff0b;color:#a8b7cf; }
 [data-theme="dark"] .schedule-table .is-upcoming>th { background:#49371f; }
 [data-theme="dark"] .schedule-table .is-upcoming .row-state { color:#ffe0a1; }
@@ -317,14 +317,13 @@ h1 span { background: linear-gradient(110deg,#2b61d8,#6943c9); color: #3155c1; b
 .week-matrix .subject.is-match { outline:0;background:none; }
 .week-matrix .subject.is-match .subject-name { background:#ffe6a0;border-color:#c29a33;color:#47320a;box-shadow:0 0 0 2px #eac76355; }
 
-.week-matrix tr.is-current>td { background:var(--live-cell)!important; }
-.week-matrix tr.is-current>.is-current-cell { background:#3159ad!important;box-shadow:inset 0 0 0 3px #a6c8ff,0 0 16px #446ccc35; }
-.week-matrix tr.is-current>.is-current-cell .subject-name { background:#fff;color:#153278;border-color:#fff;box-shadow:0 3px 9px #102c681c; }
+.week-matrix .is-current-cell { background:#3159ad!important;box-shadow:inset 0 0 0 3px #a6c8ff,0 0 16px #446ccc35; }
+.week-matrix .is-current-cell .subject-name { background:#fff;color:#153278;border-color:#fff;box-shadow:0 3px 9px #102c681c; }
 [data-theme="dark"] .week-matrix td[data-cell-day="0"] { background:#3c3420; }
 [data-theme="dark"] .subject-name { background:#ffffff0b;border-color:#ffffff20; }
 [data-theme="dark"] .week-matrix .subject.is-match { background:none; }
 [data-theme="dark"] .week-matrix .subject.is-match .subject-name { background:#705821;border-color:#d7b965;color:#fff1c7; }
-[data-theme="dark"] .week-matrix tr.is-current>.is-current-cell .subject-name { color:#173475;background:#eef4ff; }
+[data-theme="dark"] .week-matrix .is-current-cell .subject-name { color:#173475;background:#eef4ff; }
 @media (min-width:1600px) { .week-matrix td { height:96px; }.week-matrix .week-subject{font-size:17px;} }
 @media(max-width:1100px) {
   .is-class-page .toolbar{grid-template-columns:1fr;}

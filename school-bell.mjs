@@ -37,7 +37,8 @@ export class SchoolBellPlayer{
     document.addEventListener('visibilitychange',()=>{if(!document.hidden){this.cancel();this.reconcile();}});
     window.addEventListener('pagehide',()=>{this.closed=true;this.cancel();});
     window.addEventListener('pageshow',()=>{this.closed=false;this.cancel();this.reconcile();});
-    clock.onSync(()=>{this.cancel();this.reconcile();});
+    // reconcile() restarts only when the corrected time moves the plan; a routine sync never cuts the bell.
+    clock.onSync(()=>this.reconcile());
   }
   async prepare(){
     if(!this.context)return this.publish();
@@ -125,6 +126,11 @@ export class SchoolBellPlayer{
     }
     const plan=this.currentPlan();
     if(plan&&this.lastDate!==plan.dateKey){this.lastDate=plan.dateKey;this.completed.clear();}
+    // A due bell retries a suspended engine (e.g. after an iOS interruption); blocked autoplay still needs a tap.
+    if(plan&&this.context.state!=='running'&&!this.resuming&&this.context.resume){
+      this.resuming=true;
+      this.context.resume().catch(()=>{}).finally(()=>{this.resuming=false;});
+    }
     if(this.source&&(!plan||this.context.state!=='running'||this.plan.id!==plan.id||Math.abs(this.plan.stopAt-plan.stopAt)>.2))this.cancel();
     if(!this.source&&plan&&this.context.state==='running'&&!this.completed.has(plan.id))this.claim(plan);
     this.publish();

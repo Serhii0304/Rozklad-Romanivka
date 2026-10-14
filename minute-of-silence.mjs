@@ -4,13 +4,15 @@ import {playbackPlan,silenceWindow} from './time-core.mjs';
 export class SilencePlayer{
 constructor(clock,onState=()=>{}){this.clock=clock;this.onState=onState;this.context=null;this.buffer=null;this.source=null;this.releaseLock=null;this.plan=null;this.busy=false;this.claiming=false;this.state='waiting';this.loadError=false;this.stopped=false;this.tabId=globalThis.crypto?.randomUUID?.()||String(Math.random());this.leaseKey='romanivka.audio.lease';this.fallback=false;this.leasePending=false;
 this.prepare();this.timer=setInterval(()=>this.reconcile(),200);
-for(const event of ['pointerdown','keydown'])document.addEventListener(event,()=>this.enable(),{capture:true,passive:true});
+// Touch screens grant audio permission on release (pointerup/touchend/click), not on pointerdown.
+for(const event of ['pointerdown','pointerup','touchend','click','keydown'])document.addEventListener(event,()=>this.enable(),{capture:true,passive:true});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden){this.cancel();this.reconcile();}});
 window.addEventListener('pageshow',()=>{this.cancel();this.reconcile();});
 window.addEventListener('pagehide',()=>this.cancel());
-clock.onSync(()=>{this.cancel();this.reconcile();});
+// reconcile() restarts only when the corrected time moves the plan; a routine sync never cuts the sound.
+clock.onSync(()=>this.reconcile());
 }
-publish(){const active=silenceWindow(this.clock.now()).active;this.onState({state:this.state,ready:this.context?.state==='running'&&!!this.buffer,active,error:this.loadError,otherTab:this.claiming&&!this.source});}
+publish(){const active=silenceWindow(this.clock.now()).active;this.onState({state:this.state,running:this.context?.state==='running',ready:this.context?.state==='running'&&!!this.buffer,active,error:this.loadError,otherTab:this.claiming&&!this.source});}
 async prepare(){try{const AC=window.AudioContext||window.webkitAudioContext;if(!AC){this.state='unsupported';return this.publish();}this.context=new AC();this.context.addEventListener('statechange',()=>{if(this.context.state!=='running')this.cancel();this.reconcile();});
 const response=await fetch('./Хвилина мовчання.mp3');if(!response.ok)throw new Error('audio');this.buffer=await this.context.decodeAudioData(await response.arrayBuffer());if(this.buffer.duration<60)throw new Error('short audio');this.reconcile();
 }catch{this.loadError=true;if(this.context){this.buffer=this.metronomeBuffer();this.reconcile();}else{this.state='unsupported';this.publish();}}}
